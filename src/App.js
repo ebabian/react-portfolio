@@ -1,6 +1,9 @@
 import './App.css';
 import Home from './Components/Home';
+import About from './Components/About';
 import { Route, Redirect } from 'react-router-dom';
+import Projects from './Components/Projects.js';
+import Contact from './Components/Contact.js';
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <main>
         <Route path="/home" component={Home}/>
         <Route path="/" render={() => <Redirect to="/home"/> } />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </main>
     </div>
   );
