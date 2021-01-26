@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="Home">
             <Nav />
-            <h1>Elektra Babian</h1>
+            <h1 className="fade-in">Elektra Babian</h1>
         </div>
     );
 };

@@ -3,7 +3,7 @@ import './Nav.css'
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className="fade-in">
             <ul>
                 <li>Home</li>
                 <li>Projects</li>
