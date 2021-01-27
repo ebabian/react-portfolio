@@ -14,75 +14,58 @@
   }
 
  .imgDiv {
-   float: left;
-   margin-top: 15%;
-   margin-left: 22%;
+  margin: 0;
+  position: absolute;
+  top: 38%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
   }
 
   .contact-bubble {
     width: 400px;
     height: 400px;
-    /* float: right; */
-    margin: 25%;
-    margin-left: 30%;
+    /* margin: 25%;
+    margin-left: 30%; */
+    margin: 0;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     border-radius: 50%;
     background-color:  rgba(224, 250, 80, 0.3);
   }
+
+ #contact-p, #email-p {
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  font-weight: 300;
+ }
+
+ #email-p {
+  top: 65%;
+  font-size: 14px;
+ }
   
-  .contact-container {
-    margin-top: 200px;
-  }
-  
-  .contact-div, .email-div {
-    margin-left: 440px;
-  }
-  
-  .contact-div {
-    margin-top: -320px;
-  }
-  
-  .email-div {
-    margin-top: 40px;
-    padding-bottom: 15px;
-    width: 470px;
-    border-bottom: .5px solid gray;
-  }
-  
-  .contact-div p, .email-div a, #send-btn{
-    font-family: sans-serif;
-    color: #282828;
-    font-weight: 100;
-    font-size: 13px;
-    letter-spacing: .5px;
-  }
-  
-  .email-div a{
-    margin-top: 30px;
-    text-transform: lowercase;
-    text-decoration: none;
-  }
-  
-  .send-div {
-    margin-top: 50px;
-  }
-  
-  #send-btn {
-    margin-left: 440px;
-    margin-top: 30px;
-    text-decoration: none;
-    color: #606060;
-    border: .5px solid #585858;
-    padding: 15px 50px;
-    border-radius: 3px;
-    letter-spacing: 2px;
-    font-size: 12px;
-  }
-  
-  #github-logo, #LI-logo {
-    width: 30px;
-    margin-bottom: -10px;
-    margin-left: 30px;
-  }
-  #LI-logo {
-    width: 28px;
-  }
+ .send-div {
+    margin: 0;
+    position: absolute;
+    top: 68%;
+    left: 56%;
+    z-index: 100;
+ }
+
+ #send-btn {
+  text-decoration: none;
+  color: #3a3a3a;
+  background-color:rgba(250, 81, 30, .6);
+  padding: 15px 50px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  z-index: 100;
+ }
