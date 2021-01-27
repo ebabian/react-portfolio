@@ -12,6 +12,7 @@ const Home = () => {
             <h2 className="fade-in">Software Engineer</h2>
             <div className="slide-left">
                 <h4>Let's make something beautiful together.</h4>
+                <em>Test this is a test</em>
             </div>
 
             <Footer />

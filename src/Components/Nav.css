@@ -16,6 +16,7 @@ nav {
     text-decoration: none;
     color: black;
     border-radius: 50%;
+    font-weight: 300;
 }
 
 .navLink:hover {
