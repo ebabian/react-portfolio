@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="Footer">
+        <div className="Footer fade-in">
             <a href="https://github.com/ebabian" target="_blank">
                 <img id="social" src="https://img.icons8.com/material-sharp/96/000000/github.png"/>
             </a>
