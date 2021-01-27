@@ -8,7 +8,6 @@
     height: 100%;
 }
 
-
   #contactImg {
     width: 200px;
     border-radius: 50%;
@@ -16,7 +15,18 @@
 
  .imgDiv {
    float: left;
-   margin: 15%;
+   margin-top: 15%;
+   margin-left: 22%;
+  }
+
+  .contact-bubble {
+    width: 400px;
+    height: 400px;
+    /* float: right; */
+    margin: 25%;
+    margin-left: 30%;
+    border-radius: 50%;
+    background-color:  rgba(224, 250, 80, 0.3);
   }
   
   .contact-container {
