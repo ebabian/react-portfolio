@@ -1,0 +1,24 @@
+.proj-wrapper {
+    border: 1px solid red;
+    margin-top: 100px;
+}
+
+.img-wrapper {
+    border: 3px solid cyan;
+}
+
+#proj-img {
+    width: 290px;
+    box-shadow: -25px -20px 40px -20px gray;
+  }
+
+.proj-header {
+    font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.6px;
+  color: black;
+  border-bottom: .5px solid gray;
+  margin-top: 50px;
+  width: 50%;
+  text-align: left;
+}
