@@ -11,9 +11,7 @@ const Projects = () => {
     return (
         <div>
             <Nav />
-
-            <h2 className="proj-header">Software Engineering Projects</h2>
-
+            
             <div className="proj-wrapper">
                 <div className="img-wrapper">
                    <img id="proj-img" src={projImgs[0]} alt="Calculator"/>

@@ -4,8 +4,11 @@ import './About.css'
 
 const About = () => {
     return (
-        <div>
+        <div className="About">
             <Nav />
+            
+            <div className="about-wrapper">
+            </div>
         </div>
     );
 };
