@@ -8,6 +8,7 @@ const About = () => {
             <Nav />
             
             <div className="about-wrapper">
+                <h1 className="about-h1">Software <br/> Engineer</h1>
             </div>
         </div>
     );
