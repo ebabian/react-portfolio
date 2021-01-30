@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-.About {
+.Home {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -10,7 +10,7 @@
     background: linear-gradient(to right,tomato 50%,blanchedalmond 50%, blanchedalmond 100%);
 }
 
-.about-h1 {
+.home-h1 {
     font-size: 80px;
     text-transform: uppercase;
     font-weight: 900;
@@ -19,6 +19,7 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 #scroll-p {
@@ -50,6 +51,11 @@
     left: 40px;
     margin: 0;
     text-transform: uppercase;
-    /* font-family: arial; */
     letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
+
+
+  

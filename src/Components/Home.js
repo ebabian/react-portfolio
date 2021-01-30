@@ -1,18 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Nav from './Nav';
-import Footer from './Footer'
-import './Home.css'
+import Footer from './Footer';
+import './Home.css';
 
-const About = () => {
+const Home = () => {
     return (
         <div >
-          <h4 className="home-eb">Elektra Babian</h4>
-            <div className="About">
+        <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
+            <div className="Home">
             <Nav />
-            <div className="about-wrapper">
-                <h1 className="about-h1">Software <br/> Engineer</h1>
-                <p id="scroll-p">Scroll</p>
-                <img id="down-arrow" src="https://img.icons8.com/small/32/ffffff/long-arrow-down.png"/>
+            <div className="home-wrapper">
+                <h1 className="home-h1 fade-in">Software <br/> Engineer</h1>
+                <p id="scroll-p" className="fade-in">Scroll</p>
+                <img className="slide-down fade-in" id="down-arrow" src="https://img.icons8.com/small/32/ffffff/long-arrow-down.png"/>
             </div>
 
             <Footer />
@@ -21,4 +22,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Home;
