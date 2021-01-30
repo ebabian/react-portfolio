@@ -1,22 +1,24 @@
 import React from 'react';
-import Nav from './Nav'
-import './Home.css'
+import Nav from './Nav';
 import Footer from './Footer'
+import './Home.css'
 
-const Home = () => {
+const About = () => {
     return (
-        <div className="Home">
+        <div >
+          <h4 className="home-eb">Elektra Babian</h4>
+            <div className="About">
             <Nav />
-            
-            <h1 className="fade-in home-h1">Elektra Babian</h1>
-            <h2 className="fade-in home-h2">Software Engineer</h2>
-            <div className="slide-left">
-                <h4>Let's make something beautiful together.</h4>
+            <div className="about-wrapper">
+                <h1 className="about-h1">Software <br/> Engineer</h1>
+                <p id="scroll-p">Scroll</p>
+                <img id="down-arrow" src="https://img.icons8.com/small/32/ffffff/long-arrow-down.png"/>
             </div>
 
             <Footer />
+            </div>
         </div>
     );
 };
 
-export default Home;
+export default About;
