@@ -7,7 +7,8 @@
     transform: translate(-50%, -50%);
     width: 92%;
     height: 90%;
-    background: linear-gradient(to right,tomato 50%,blanchedalmond 50%, blanchedalmond 100%);
+    /* background: linear-gradient(to right,tomato 50%,blanchedalmond 50%, blanchedalmond 100%); */
+    background: rgb(198, 58, 42);
 }
 
 .home-h1 {
