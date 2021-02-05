@@ -58,10 +58,28 @@ nav {
     100% {opacity:1;}
     }
 
+@media(min-width:800px) {
+    .burger-menu {
+        display: none;
+    }
+}
+
+
 /*  RESPONSIVE MENU */
 @media (max-width: 800px) {
     .nav {
         display:none;
+    }
+
+    .navLink {
+        margin: 6%;
+        /* padding: 35px 20px; */
+        cursor: pointer;
+        /* border-radius: 5px 20px 5px; */
+        border-radius: 50%;
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
     }
 
     .bm-burger-button {
@@ -70,8 +88,6 @@ nav {
         height: 28px;
         right: 36px;
         top: 36px;
-        outline: none;
-        border: none;
       }
       
       /* Color/shape of burger icon bars */
@@ -130,6 +146,6 @@ nav {
       
       /* Styling of overlay */
       .bm-overlay {
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(143, 79, 79, 0.3);
       }
 }
