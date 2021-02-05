@@ -14,7 +14,7 @@ const Nav = () => {
             <Link to={'/contact'} className="navLink">Contact</Link>
         </nav>
         <div className="burger-menu">
-            <Menu>
+            <Menu outerContainerId={"App"}>
                 <Link to={'/home'} className="navLink"> Home </Link>
                 <Link to={'/about'} className="navLink"> About </Link>
                 <Link to={'/projects'} className="navLink">Portfolio</Link>
