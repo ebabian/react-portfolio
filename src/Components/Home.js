@@ -11,9 +11,8 @@ const Home = () => {
             <div className="Home">
             <Nav />
             <div className="home-wrapper">
-                <h1 className="home-h1 fade-in">Software <br/> Engineer</h1>
-                <p id="scroll-p" className="fade-in">Scroll</p>
-                <img className="slide-down fade-in" id="down-arrow" src="https://img.icons8.com/small/32/ffffff/long-arrow-down.png"/>
+                <h1 className="home-h1 fade-in"> Digital Creator | Software Engineer | Problem Solver</h1>
+                <h4 className="slogan fade-in">Let's make something beautiful together.</h4>
             </div>
 
             <Footer />

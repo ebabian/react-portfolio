@@ -13,6 +13,8 @@ const Home = () => {
             <div className="slide-left">
                 <h4>Let's make something beautiful together.</h4>
             </div>
+            <p id="scroll-p" className="fade-in">Scroll</p>
+                <img className="slide-down fade-in" id="down-arrow" src="https://img.icons8.com/small/32/ffffff/long-arrow-down.png"/>
 
             <Footer />
         </div>
