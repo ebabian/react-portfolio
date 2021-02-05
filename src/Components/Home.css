@@ -27,6 +27,7 @@
     position: absolute;
     top: 60%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     /* color: rgb(169, 169, 242); */
     color:white;
@@ -37,7 +38,7 @@
 .slogan {
     font-family: 'zoika';
     font-size: 55px;
-    width: 700px;
+    width: 94%;
     margin: 0;
     position: absolute;
     top: 45%;
