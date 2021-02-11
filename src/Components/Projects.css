@@ -1,14 +1,38 @@
 .proj-wrapper {
     border: 1px solid red;
     margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
 }
 
+
 .img-wrapper {
-    border: 3px solid cyan;
+    border: 1px solid cyan;
+    /* width: 400px; */
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 #proj-img {
-    width: 290px;
-    box-shadow: -25px -20px 40px -20px gray;
-    margin-right: 400px;
+    width: 85%;
+    /* box-shadow: -25px -20px 40px -20px gray;
+    margin-right: 400px; */
+}
+
+#proj-title {
+    float: left;
+    margin-left: 40px;
+    font-size: 23px;
+    border: 1px solid green;
+    font-weight: 700;
+}
+
+#proj-description {
+    margin-left: 10px;
+    border: 1px solid red;
+    width: 500px;
+    color: gray;
+    font-weight: 500;
 }
