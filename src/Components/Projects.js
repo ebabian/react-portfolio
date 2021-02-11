@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div>
             <Nav />
-            <h1>Portfolio</h1>
+            <h1 className="page-title">Portfolio</h1>
             <div className="proj-wrapper">
                 <div className="img-wrapper">
                     <a href="https://elektra-react-calculator.netlify.app/"
