@@ -1,19 +1,9 @@
 .proj-wrapper {
-    /* border: 1px solid red; */
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 50px;
     width: 90%;
-
-    /* box-sizing: border-box; */
     margin-left: 5%;
-    /* transform: translate(-50%, -50%); */
-    /* position: absolute;
-    top: 155%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-
     padding-bottom: 100px;
     margin-top: 80px;
 }
@@ -22,13 +12,10 @@
 .img-wrapper {
     /* border: 1px solid cyan; */
     padding-bottom: 100px;
- 
 }
 
-
 #proj-img {
-    width: 80%;
-    
+    width: 76%;
 }
 
 .img-wrapper:hover #proj-img {
@@ -42,7 +29,7 @@
     /* border: 1px solid rgb(182, 255, 182); */
     font-weight: 800;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #proj-description {
@@ -69,4 +56,12 @@
     font-weight: 400;
     font-size: 38px;
 
+}
+
+#proj-git {
+    width: 22px;
+    vertical-align:top;
+    /* margin-left: 4px; */
+    margin-top: 8px;
+    opacity: .5;
 }

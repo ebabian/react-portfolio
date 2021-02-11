@@ -8,7 +8,11 @@ import './Projects.css'
 const Projects = () => {
 
     const projImgs = [
-       'https://i.imgur.com/Yi89qjC.png'
+       'https://i.imgur.com/WQ6hqDA.png', 
+       'https://i.imgur.com/pIVBJ7c.png',
+       'https://i.imgur.com/i6How12.png',
+       'https://i.imgur.com/UFqL03q.png',
+       'https://i.imgur.com/quGE92k.png'
     ]
 
     return (
@@ -16,7 +20,9 @@ const Projects = () => {
             <Nav />
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
-                <div className="img-wrapper">
+
+
+            <div className="img-wrapper">
                     <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -24,29 +30,48 @@ const Projects = () => {
                         <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Calculator</h4>
-                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
+                   <h5 id="proj-description">React, SASS, CSS Grid <br/>
+                    {/* <a href="https://github.com/ebabian" target="_blank" rel="noreferrer">
+                        <img id="proj-git" src="https://img.icons8.com/material-sharp/96/000000/github.png" alt="GitHub"/>
+                    </a> */}
+                   </h5>
                 </div>
     
+
+
                 <div className="img-wrapper">
-                    <a href="https://elektra-react-calculator.netlify.app/"
+                    <a href="https://your-story-app.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
                     >
-                        <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
+                        <img id="proj-img" src={projImgs[1]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Your Story</h4>
-                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
+                   <h5 id="proj-description">Angular, Express, MongoDB</h5>
                 </div>
          
+
+
                 <div className="img-wrapper">
-                    <a href="https://elektra-react-calculator.netlify.app/"
+                    <a href="https://ebabian.github.io/"
                     target="_blank"
                     rel="noreferrer"
                     >
-                        <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
+                        <img id="proj-img" src={projImgs[2]} alt="Calculator"/>
+                    </a>
+                   <h4 id="proj-title">News Now</h4>
+                   <h5 id="proj-description">New York Times API, jQuery, Modal, <br/> Carousel</h5>
+                </div>
+
+                <div className="img-wrapper">
+                    <a href="https://elektra-tic-tac-toe.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <img id="proj-img" src={projImgs[3]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Tic-Tac-Toe</h4>
-                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
+                   <h5 id="proj-description">React, Create-React-App, JavaScript</h5>
                 </div>
 
                 <div className="img-wrapper">
@@ -54,21 +79,10 @@ const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                     >
-                        <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
+                        <img id="proj-img" src={projImgs[4]} alt="Calculator"/>
                     </a>
-                   <h4 id="proj-title">Calculator</h4>
-                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
-                </div>
-
-                <div className="img-wrapper">
-                    <a href="https://elektra-react-calculator.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Calculator</h4>
-                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
+                   <h4 id="proj-title">Techi</h4>
+                   <h5 id="proj-description">React, PHP, PostgreSQL</h5>
                 </div>
                 
             </div>

@@ -1,7 +1,7 @@
 .connect-container {
     /* padding: 20px 0; */
     padding-top: 100px;
-    background-color: rgb(33, 33, 43);
+    background-color: rgba(33, 33, 43, .98);
     width: 100%;
     height: 400px;
     font-size: 33px;
@@ -20,7 +20,7 @@
 
 .social-icons {
     text-align: left;
-    margin-top: 150px;
+    margin-top: 145px;
     margin-left: 15px;
 }
 
