@@ -16,8 +16,11 @@
 
 #proj-img {
     width: 75%;
-    /* box-shadow: -25px -20px 40px -20px gray;
-    margin-right: 400px; */
+}
+
+#proj-img:hover {
+    transition: 1s ease;
+    transform: scale(1.05);
 }
 
 #proj-title {
