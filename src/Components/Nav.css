@@ -94,12 +94,13 @@ nav {
         height: 28px;
         right: 36px;
         top: 36px;
-      }
+    }
       
       /* Color/shape of burger icon bars */
       .bm-burger-bars {
-        background: #e5e8f5;
+        background: white;
       }
+
       
       /* Color/shape of burger icon bars on hover*/
       .bm-burger-bars-hover {

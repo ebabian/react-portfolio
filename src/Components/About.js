@@ -12,6 +12,7 @@ const About = () => {
             <div className="About">
             <Nav />
 
+
             <Footer />
             </div>
         </div>

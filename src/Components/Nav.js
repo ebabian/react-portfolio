@@ -13,7 +13,7 @@ const Nav = () => {
             <Link to={'/projects'} className="navLink">Portfolio</Link>
             <Link to={'/contact'} className="navLink">Contact</Link>
         </nav>
-        <div className="burger-menu">
+        <div className="burger-menu fade-in">
             <Menu outerContainerId={"App"}>
                 <Link to={'/home'} className="navLink"> Home </Link>
                 <Link to={'/about'} className="navLink"> About </Link>
