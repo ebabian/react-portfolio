@@ -6,19 +6,23 @@
     grid-row-gap: 50px;
     width: 90%;
 
-    margin: 0;
-    position: absolute;
+    /* box-sizing: border-box; */
+    margin-left: 5%;
+    /* transform: translate(-50%, -50%); */
+    /* position: absolute;
     top: 155%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
-    padding-bottom: 500px;
+    padding-bottom: 100px;
+    margin-top: 80px;
 }
 
 
 .img-wrapper {
     /* border: 1px solid cyan; */
     padding-bottom: 100px;
+ 
 }
 
 

@@ -70,10 +70,9 @@ const Projects = () => {
                    <h4 id="proj-title">Calculator</h4>
                    <h5 id="proj-description">React, SASS, CSS Grid</h5>
                 </div>
-                <Connect />
-                <Footer />
+                
             </div>
-            
+            <Connect />
         </div>
     );
 };
