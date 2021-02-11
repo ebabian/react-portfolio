@@ -1,6 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import Nav from './Nav';
+import Footer from './Footer'
+import Connect from './Connect'
 import './Projects.css'
 
 const Projects = () => {
@@ -12,8 +14,8 @@ const Projects = () => {
     return (
         <div>
             <Nav />
-            <h1 className="page-title">Portfolio</h1>
-            <div className="proj-wrapper">
+            <h1 className="page-title fade-in">Portfolio</h1>
+            <div className="proj-wrapper fade-in">
                 <div className="img-wrapper">
                     <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
@@ -68,7 +70,10 @@ const Projects = () => {
                    <h4 id="proj-title">Calculator</h4>
                    <h5 id="proj-description">React, SASS, CSS Grid</h5>
                 </div>
+                <Connect />
+                <Footer />
             </div>
+            
         </div>
     );
 };

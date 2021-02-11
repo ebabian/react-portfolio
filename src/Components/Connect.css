@@ -1,0 +1,15 @@
+.connect-container {
+    position: absolute;
+    bottom: 10px;
+    padding: 140px 0;
+    background-color: rgba(220, 239, 245, 0.653);
+    width: 100%;
+    font-size: 33px;
+    letter-spacing: -3px;
+}
+
+#email {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    letter-spacing: -2px;
+}
