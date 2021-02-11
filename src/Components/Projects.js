@@ -33,6 +33,7 @@ const Projects = () => {
                         <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Calculator</h4>
+                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
                 </div>
          
                 <div className="img-wrapper">
@@ -43,6 +44,7 @@ const Projects = () => {
                         <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Calculator</h4>
+                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
                 </div>
 
                 <div className="img-wrapper">
@@ -53,6 +55,7 @@ const Projects = () => {
                         <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Calculator</h4>
+                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
                 </div>
 
                 <div className="img-wrapper">
@@ -63,6 +66,7 @@ const Projects = () => {
                         <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
                     </a>
                    <h4 id="proj-title">Calculator</h4>
+                   <h5 id="proj-description">React, SASS, CSS Grid</h5>
                 </div>
             </div>
         </div>
