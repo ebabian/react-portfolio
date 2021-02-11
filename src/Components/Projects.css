@@ -5,12 +5,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
+    /* text-align: left; */
 }
 
 
 .img-wrapper {
     border: 1px solid cyan;
-    /* width: 400px; */
     margin-bottom: 100px;
     padding-bottom: 100px;
 }
@@ -22,17 +22,18 @@
 }
 
 #proj-title {
-    float: left;
     margin-left: 40px;
     font-size: 23px;
     border: 1px solid green;
     font-weight: 700;
+    text-align: left;
 }
 
 #proj-description {
-    margin-left: 10px;
+    text-align: left;
     border: 1px solid red;
-    width: 500px;
+    margin-left: 40px;
     color: gray;
     font-weight: 500;
+    font-size: 16px;
 }

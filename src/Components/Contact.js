@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="Contact">
             <Nav />
             <div className="imgDiv">
-                <img id="contactImg" src="https://i.imgur.com/WRsSm98.jpg"/>
+                <img id="contactImg" src="https://i.imgur.com/WRsSm98.jpg" alt="Elektra Babian"/>
             </div>
             <div className="contact-bubble">
                 <p id="contact-p">To contact Elektra you can reach her with the email listed below. Thank you!</p>
