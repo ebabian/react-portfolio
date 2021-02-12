@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer'
 import Connect from './Connect'
@@ -9,17 +9,20 @@ const Projects = () => {
 
     const projImgs = [
         'https://i.imgur.com/UjaH7yU.png',
-       'https://i.imgur.com/pIVBJ7c.png',
-       'https://i.imgur.com/WQ6hqDA.png', 
-       'https://i.imgur.com/i6How12.png',
-       'https://i.imgur.com/UFqL03q.png',
-       'https://i.imgur.com/quGE92k.png',
-       'https://i.imgur.com/pPKgqu9.png'
+        'https://i.imgur.com/pIVBJ7c.png',
+        'https://i.imgur.com/WQ6hqDA.png', 
+        'https://i.imgur.com/i6How12.png',
+        'https://i.imgur.com/UFqL03q.png',
+        'https://i.imgur.com/quGE92k.png',
+        'https://i.imgur.com/pPKgqu9.png'
     ]
 
     return (
         <div>
-            <Nav />
+            
+        <Link className="home-eb fade-in proj-eb" to={'/home'}>Elektra Babian</Link>
+        <div className="Portfolio">
+            {/* <Nav /> */}
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
 
@@ -110,6 +113,7 @@ const Projects = () => {
                    <h5 id="proj-description">EJS, MongoDB, Express, Authentication</h5>
                 </div>
                 
+            </div>
             </div>
             <Connect />
         </div>
