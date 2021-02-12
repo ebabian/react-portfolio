@@ -12,7 +12,8 @@ const Projects = () => {
        'https://i.imgur.com/pIVBJ7c.png',
        'https://i.imgur.com/i6How12.png',
        'https://i.imgur.com/UFqL03q.png',
-       'https://i.imgur.com/quGE92k.png'
+       'https://i.imgur.com/quGE92k.png',
+       'https://i.imgur.com/pPKgqu9.png'
     ]
 
     return (
@@ -83,6 +84,18 @@ const Projects = () => {
                     </a>
                    <h4 id="proj-title">Techi</h4>
                    <h5 id="proj-description">React, PHP, PostgreSQL</h5>
+                </div>
+
+
+                <div className="img-wrapper">
+                    <a href="https://protected-dusk-30011.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <img id="proj-img" src={projImgs[5]} alt="Calculator"/>
+                    </a>
+                   <h4 id="proj-title">Stocked</h4>
+                   <h5 id="proj-description">EJS, MongoDB, Express, Authentication</h5>
                 </div>
                 
             </div>
