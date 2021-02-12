@@ -9,5 +9,10 @@
     /* background: linear-gradient(to right,tomato 50%,blanchedalmond 50%, blanchedalmond 100%); */
     /* background: rgb(198, 58, 42); */
     /* background-color: tomato; */
-    background: rgb(219, 233, 252);
+    background: rgb(255, 149, 165);
+}
+
+#scroll {
+    font-weight: 300;
+    font-size: 18px
 }

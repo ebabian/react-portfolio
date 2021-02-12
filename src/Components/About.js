@@ -11,7 +11,7 @@ const About = () => {
             <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
             <div className="About">
             <Nav />
-
+            <h2 id="scroll">Visit website</h2>
 
             <Footer />
             </div>
