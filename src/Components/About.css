@@ -12,7 +12,25 @@
     background: rgb(255, 149, 165);
 }
 
-#scroll {
+.about-container {
+    text-align: left;
+    margin: 150px 10%;
+}
+
+#about-h1 {
+    font-size: 5em;
+    font-weight: 800;
+    /* border: 1px solid blue; */
+}
+
+#hand-icon {
+    width: 60px;
+    transform: scaleX(-1);
+    vertical-align: middle;
+}
+
+#about-desc-h4 {
+    font-size: 26px;
     font-weight: 300;
-    font-size: 18px
+    /* border: 1px solid red; */
 }
