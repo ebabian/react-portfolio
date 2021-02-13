@@ -15,7 +15,7 @@
 
 .about-container {
     text-align: left;
-    margin: 150px 12%;
+    margin: 150px 22%;
 }
 
 #about-h1 {
@@ -36,6 +36,7 @@
     font-size: 23px;
     font-weight: 400;
     color: rgb(41, 41, 52);
+    margin-top: 80px;
     /* border: 1px solid red; */
 }
 
@@ -45,4 +46,10 @@
 
 .jobs-container {
     border: 1px solid cyan;
+}
+
+.jobs-wrapper {
+    background-color: white;
+    width: 100%;
+    border: 1px solid red;
 }
