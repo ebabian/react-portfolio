@@ -71,8 +71,14 @@
     opacity: .5;
 }
 
-#proj-arrow {
+#proj-arrow, #proj-up-arrow {
 width: 28px;
 vertical-align:middle;
 cursor: pointer;
+transition: .8s ease;
+}
+
+#proj-up-arrow {
+    transform: rotate(180deg);
+    transition: .8s ease;
 }

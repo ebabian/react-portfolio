@@ -55,10 +55,19 @@ const Projects = () => {
                 </a>
                 <h4 id="proj-title">Your Story</h4>
                 <h5 id="proj-description">Angular, Express, MongoDB 
-                    <img 
+                    
+                    {!desc ? 
+                       ( <img 
+                            onClick={toggleDescription}
+                            id="proj-arrow" 
+                            src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                            :
+                        (<img 
                         onClick={toggleDescription}
-                        id="proj-arrow" 
-                        src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                        id="proj-up-arrow"
+                        src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                    }
+
                     { desc ? <p>Your Story: a collective of personal histories. The user can create a new story, edit, and delete their post. As well as, search and read past user stories.</p> : ("")}
                 </h5>
             </div>
