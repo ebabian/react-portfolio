@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer'
@@ -6,6 +6,11 @@ import Connect from './Connect'
 import './Projects.css'
 
 const Projects = () => {
+    const [desc, showDesc] = useState(false);
+
+    const toggleDescription = () => {
+        showDesc(!desc);
+    }
 
     const projImgs = [
         'https://i.imgur.com/FuhCsiK.png',
@@ -17,6 +22,8 @@ const Projects = () => {
         'https://i.imgur.com/pPKgqu9.png'
     ]
 
+
+
     return (
         <div>
             
@@ -26,92 +33,102 @@ const Projects = () => {
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
 
+
+            {/* Sunny App */}
             <div className="img-wrapper">
-                    <a href="https://github.com/ebabian/weather-app"
+                <a href="https://github.com/ebabian/weather-app"
                     target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Sunny</h4>
-                   <h5 id="proj-description">Coming soon <br/> Openweathermap API, React, Search bar</h5>
-                </div>
+                    rel="noreferrer">
+                    <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
+                </a>
+                <h4 id="proj-title">Sunny</h4>
+                <h5 id="proj-description">Coming soon <br/> Openweathermap API, React, Search bar</h5>
+            </div>
 
 
-                <div className="img-wrapper">
-                    <a href="https://your-story-app.herokuapp.com/"
+            {/* Your Story */}
+            <div className="img-wrapper">
+                <a href="https://your-story-app.herokuapp.com/"
                     target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[1]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Your Story</h4>
-                   <h5 id="proj-description">Angular, Express, MongoDB</h5>
-                </div>
+                    rel="noreferrer">
+                    <img id="proj-img" src={projImgs[1]} alt="Calculator"/>
+                </a>
+                <h4 id="proj-title">Your Story</h4>
+                <h5 id="proj-description">Angular, Express, MongoDB 
+                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                </h5>
+            </div>
          
 
-
+            {/* Calculator App */}
             <div className="img-wrapper">
-                    <a href="https://elektra-react-calculator.netlify.app/"
+                <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
-                    rel="noreferrer"
-                    >
+                    rel="noreferrer">
                         <img id="proj-img" src={projImgs[2]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Calculator</h4>
-                   <h5 id="proj-description">React, SASS, CSS Grid <br/>
+                </a>
+                <h4 id="proj-title">Calculator</h4>
+                <h5 id="proj-description">React, SASS, CSS Grid 
+                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/><br/>
                     {/* <a href="https://github.com/ebabian" target="_blank" rel="noreferrer">
                         <img id="proj-git" src="https://img.icons8.com/material-sharp/96/000000/github.png" alt="GitHub"/>
                     </a> */}
-                   </h5>
-                </div>
+                </h5>
+            </div>
     
 
-
-                <div className="img-wrapper">
-                    <a href="https://ebabian.github.io/"
+            {/* News Now */}
+            <div className="img-wrapper">
+                <a href="https://ebabian.github.io/"
                     target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[3]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">News Now</h4>
-                   <h5 id="proj-description">New York Times API, jQuery, Modal, <br/> Carousel</h5>
-                </div>
+                    rel="noreferrer">
+                    <img id="proj-img" src={projImgs[3]} alt="Calculator"/>
+                </a>
+                <h4 id="proj-title">News Now</h4>
+                <h5 id="proj-description">New York Times API, jQuery, Modal, <br/> Carousel 
+                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                </h5>
+            </div>
 
-                <div className="img-wrapper">
-                    <a href="https://elektra-tic-tac-toe.netlify.app/"
+
+            {/* Tic-Tac-Toe */}
+            <div className="img-wrapper">
+                <a href="https://elektra-tic-tac-toe.netlify.app/"
                     target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[4]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Tic-Tac-Toe</h4>
-                   <h5 id="proj-description">React, Create-React-App, JavaScript</h5>
-                </div>
+                    rel="noreferrer">
+                    <img id="proj-img" src={projImgs[4]} alt="Calculator"/>
+                </a>
+                <h4 id="proj-title">Tic-Tac-Toe</h4>
+                <h5 id="proj-description">React, Create-React-App, JavaScript
+                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                </h5>
+            </div>
 
-                <div className="img-wrapper">
-                    <a href="https://elektra-react-calculator.netlify.app/"
+            {/* Techi App */}
+            <div className="img-wrapper">
+                <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[5]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Techi</h4>
-                   <h5 id="proj-description">React, PHP, PostgreSQL</h5>
-                </div>
+                    rel="noreferrer">
+                    <img id="proj-img" src={projImgs[5]} alt="Calculator"/>
+                </a>
+                <h4 id="proj-title">Techi</h4>
+                <h5 id="proj-description">React, PHP, PostgreSQL
+                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                </h5>
+            </div>
 
-
-                <div className="img-wrapper">
-                    <a href="https://protected-dusk-30011.herokuapp.com/"
+            {/* Stocked App */}
+            <div className="img-wrapper">
+                <a href="https://protected-dusk-30011.herokuapp.com/"
                     target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img id="proj-img" src={projImgs[6]} alt="Calculator"/>
-                    </a>
-                   <h4 id="proj-title">Stocked</h4>
-                   <h5 id="proj-description">EJS, MongoDB, Express, Authentication</h5>
-                </div>
+                    rel="noreferrer">
+                    <img id="proj-img" src={projImgs[6]} alt="Calculator"/>
+                </a>
+                <h4 id="proj-title">Stocked</h4>
+                <h5 id="proj-description">EJS, MongoDB, Express, Authentication     
+                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                    </h5>
+            </div>
                 
             </div>
             </div>

@@ -70,3 +70,8 @@
     margin-top: 8px;
     opacity: .5;
 }
+
+#proj-arrow {
+width: 28px;
+vertical-align:middle;
+}
