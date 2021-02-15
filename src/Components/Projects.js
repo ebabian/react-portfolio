@@ -37,7 +37,7 @@ const Projects = () => {
         'https://i.imgur.com/pIVBJ7c.png',
         'https://i.imgur.com/WQ6hqDA.png', 
         'https://i.imgur.com/i6How12.png',
-        'https://i.imgur.com/3NUAJgH.png',
+        'https://i.imgur.com/wK5XJoV.png',
         'https://i.imgur.com/quGE92k.png',
         'https://i.imgur.com/pPKgqu9.png'
     ]

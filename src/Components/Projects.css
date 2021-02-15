@@ -99,6 +99,11 @@ transition: .8s ease;
 }
 
 #proj-github-repo {
-    /* text-decoration: none; */
     color: gray;
+    transition: .8s ease;
+
+}
+
+#proj-github-repo:hover {
+    color: rgb(70, 70, 70);
 }
