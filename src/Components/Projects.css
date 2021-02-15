@@ -55,7 +55,7 @@
     transition: .5s ease;
     cursor: pointer;
     transition: .8s ease;
-
+    width: 70%;
 }
 
 .img-wrapper:hover #proj-description {
@@ -94,7 +94,7 @@ transition: .8s ease;
 
 #proj-details {
     transition: .8s ease;
-    width: 80%;
+    width: 92%;
 
 }
 
