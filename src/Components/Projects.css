@@ -11,12 +11,16 @@
     margin-left: 5%;
     padding-bottom: 100px;
     margin-top: 120px;
+    transition: .8s ease;
+
 }
 
 
 .img-wrapper {
     /* border: 1px solid cyan; */
     padding-bottom: 100px;
+    transition: .8s ease;
+
 }
 
 #proj-img {
@@ -35,6 +39,8 @@
     font-weight: 800;
     text-align: left;
     margin-top: 20px;
+    transition: .8s ease;
+
 }
 
 #proj-description {
@@ -48,6 +54,8 @@
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
+    transition: .8s ease;
+
 }
 
 .img-wrapper:hover #proj-description {
@@ -86,6 +94,7 @@ transition: .8s ease;
 
 #proj-details {
     transition: .8s ease;
+    width: 80%;
 
 }
 

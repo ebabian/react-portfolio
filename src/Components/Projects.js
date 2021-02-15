@@ -7,9 +7,18 @@ import './Projects.css'
 
 const Projects = () => {
     const [desc, showDesc] = useState(false);
+    const [desc2, showDesc2] = useState(false);
+    const [desc3, showDesc3] = useState(false);
 
-    const toggleDescription = () => {
-        showDesc(!desc);
+
+    function toggleDescription(event) {
+        if(event.target.className === 'desc') {
+            showDesc(!desc);
+        } else if (event.target.className === 'desc2') {
+            showDesc2(!desc2);
+        } else if (event.target.className === 'desc3') {
+            showDesc3(!desc3);
+        }
     }
 
     const projImgs = [
@@ -39,7 +48,7 @@ const Projects = () => {
                 <a href="https://github.com/ebabian/weather-app"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[0]} alt="Calculator"/>
+                    <img id="proj-img" src={projImgs[0]} alt="Sunny"/>
                 </a>
                 <h4 id="proj-title">Sunny</h4>
                 <h5 id="proj-description">Coming soon <br/> Openweathermap API, React, Search bar</h5>
@@ -51,19 +60,22 @@ const Projects = () => {
                 <a href="https://your-story-app.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[1]} alt="Calculator"/>
+                    <img id="proj-img" src={projImgs[1]} alt="Your Story App"/>
                 </a>
                 <h4 id="proj-title">Your Story</h4>
-                <h5 id="proj-description" onClick={toggleDescription}>Angular, Express, MongoDB 
+                <h5 id="proj-description" className="desc" 
+                onClick={toggleDescription}>Angular, Express, MongoDB 
                     
                     {!desc ? 
                        ( <img 
                             onClick={toggleDescription}
+                            className="desc"
                             id="proj-arrow" 
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
+                        className="desc"
                         id="proj-up-arrow"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
@@ -89,9 +101,32 @@ const Projects = () => {
                         <img id="proj-img" src={projImgs[2]} alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">Calculator</h4>
-                <h5 id="proj-description">React, SASS, CSS Grid 
-                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/><br/>
+                <h5 id="proj-description"
+                className="desc2"
+                onClick={toggleDescription}>React, SASS, CSS Grid 
                     
+                    {!desc2 ? 
+                       ( <img 
+                            onClick={toggleDescription}
+                            className="desc2"
+                            id="proj-arrow" 
+                            src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                            :
+                        (<img 
+                        onClick={toggleDescription}
+                        className="desc2"
+                        id="proj-up-arrow"
+                        src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                    }
+
+                    { desc2 ? <p id="proj-details" className="fade-in">This online React calculator always users to solve simple and advanced mathematical problems. <br/>
+                    <br/>
+                    <a 
+                        id="proj-github-repo" 
+                        href="https://github.com/ebabian/React-Calculator"
+                        target="_blank">GitHub Repo</a>
+                    </p>
+                    : ("")}
                 </h5>
             </div>
     
@@ -104,8 +139,31 @@ const Projects = () => {
                     <img id="proj-img" src={projImgs[3]} alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">News Now</h4>
-                <h5 id="proj-description">New York Times API, jQuery, Modal, <br/> Carousel 
-                    <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>
+                <h5 id="proj-description"
+                className="desc3"
+                onClick={toggleDescription}>New York Times API, jQuery, Modal, <br/> Carousel 
+                    {!desc3 ? 
+                       ( <img 
+                            onClick={toggleDescription}
+                            className="desc3"
+                            id="proj-arrow" 
+                            src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                            :
+                        (<img 
+                        onClick={toggleDescription}
+                        className="desc3"
+                        id="proj-up-arrow"
+                        src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                    }
+
+                    { desc3 ? <p id="proj-details" className="fade-in">NEWS NOW: a dynamic app built with The New York Times’ API to update the DOM and my photography for a less explicit news source. There is a carousel to go through top story topics and a modal to display article descriptions. <br/>
+                    <br/>
+                    <a 
+                        id="proj-github-repo" 
+                        href="https://github.com/ebabian/ebabian.github.io"
+                        target="_blank">GitHub Repo</a>
+                    </p>
+                    : ("")}
                 </h5>
             </div>
 
