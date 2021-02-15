@@ -8,11 +8,11 @@ import './Projects.css'
 const Projects = () => {
 
     const projImgs = [
-        'https://i.imgur.com/UjaH7yU.png',
+        'https://i.imgur.com/FuhCsiK.png',
         'https://i.imgur.com/pIVBJ7c.png',
         'https://i.imgur.com/WQ6hqDA.png', 
         'https://i.imgur.com/i6How12.png',
-        'https://i.imgur.com/UFqL03q.png',
+        'https://i.imgur.com/3NUAJgH.png',
         'https://i.imgur.com/quGE92k.png',
         'https://i.imgur.com/pPKgqu9.png'
     ]
@@ -22,7 +22,7 @@ const Projects = () => {
             
         <Link className="home-eb fade-in proj-eb" to={'/home'}>Elektra Babian</Link>
         <div className="Portfolio">
-            {/* <Nav /> */}
+            <Nav />
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
 

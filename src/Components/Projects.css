@@ -20,7 +20,7 @@
 }
 
 #proj-img {
-    width: 76%;
+    width: 68%;
 }
 
 .img-wrapper:hover #proj-img {
@@ -29,7 +29,7 @@
 }
 
 #proj-title {
-    margin-left: 60px;
+    margin-left: 80px;
     font-size: 21px;
     /* border: 1px solid rgb(182, 255, 182); */
     font-weight: 800;
@@ -40,7 +40,7 @@
 #proj-description {
     text-align: left;
     /* border: 1px solid rgb(255, 179, 179); */
-    margin-left: 60px;
+    margin-left: 80px;
     color: gray;
     font-weight: 400;
     font-size: 15px;
