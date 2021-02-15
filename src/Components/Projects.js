@@ -54,7 +54,7 @@ const Projects = () => {
                     <img id="proj-img" src={projImgs[1]} alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">Your Story</h4>
-                <h5 id="proj-description">Angular, Express, MongoDB 
+                <h5 id="proj-description" onClick={toggleDescription}>Angular, Express, MongoDB 
                     
                     {!desc ? 
                        ( <img 
@@ -68,7 +68,14 @@ const Projects = () => {
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
-                    { desc ? <p>Your Story: a collective of personal histories. The user can create a new story, edit, and delete their post. As well as, search and read past user stories.</p> : ("")}
+                    { desc ? <p id="proj-details" className="fade-in">Your Story: a collective of personal histories. The user can create a new story, edit, and delete their post. As well as, search and read past user stories. <br/>
+                    <br/>
+                    <a 
+                        id="proj-github-repo" 
+                        href="https://github.com/ebabian/Your-Story"
+                        target="_blank">GitHub Repo</a>
+                    </p>
+                    : ("")}
                 </h5>
             </div>
          
@@ -84,9 +91,7 @@ const Projects = () => {
                 <h4 id="proj-title">Calculator</h4>
                 <h5 id="proj-description">React, SASS, CSS Grid 
                     <img id="proj-arrow" src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/><br/>
-                    {/* <a href="https://github.com/ebabian" target="_blank" rel="noreferrer">
-                        <img id="proj-git" src="https://img.icons8.com/material-sharp/96/000000/github.png" alt="GitHub"/>
-                    </a> */}
+                    
                 </h5>
             </div>
     

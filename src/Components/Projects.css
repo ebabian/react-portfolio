@@ -47,6 +47,7 @@
     margin-top: -20px;
     opacity: 0;
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .img-wrapper:hover #proj-description {
@@ -81,4 +82,14 @@ transition: .8s ease;
 #proj-up-arrow {
     transform: rotate(180deg);
     transition: .8s ease;
+}
+
+#proj-details {
+    transition: .8s ease;
+
+}
+
+#proj-github-repo {
+    /* text-decoration: none; */
+    color: gray;
 }
