@@ -28,18 +28,18 @@ black
     background: radial-gradient(circle, rgba(255,159,66,1) 23%, rgba(186,233,148,0.8) 100%);
 }
 
-.home-h1 {
-    font-size: 80px;
-    text-transform: uppercase;
-    font-weight: 400;
+pre {
+   font-size: 22px;
+   font-family: Arial, Helvetica, sans-serif;
+    /* text-transform: uppercase; */
     margin: 0;
     position: absolute;
-    top: 68%;
+    top: 70%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
+    /* letter-spacing: -.5px; */
 }
 
 .slogan {

@@ -11,7 +11,7 @@ const Home = () => {
             <div className="Home">
             <Nav />
             <div className="home-wrapper">
-                <h1 className="home-h1 fade-in"> Digital Creator | Software Engineer | Problem Solver</h1>
+                <pre className="home-pre fade-in"> Digital Creator  |  Software Engineer  |  Problem Solver</pre>
                 <h4 className="slogan fade-in">Let's make something beautiful together.</h4>
             </div>
 

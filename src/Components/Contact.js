@@ -11,7 +11,7 @@ const Contact = () => {
                 <img id="contactImg" src="https://i.imgur.com/WRsSm98.jpg" alt="Elektra Babian"/>
             </div>
             <div className="contact-bubble">
-                <p id="contact-p">Get in Touch!</p>
+                <h4 id="contact-p">Get in Touch!</h4>
                 <p id="email-p">babianelektra@gmail.com</p>
             </div>
             <div className="bubble"><p id="contact-social">Email</p></div>

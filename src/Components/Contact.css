@@ -47,16 +47,18 @@
   top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 250px;
+  width: 300px;
   font-weight: 400;
   /* color: white; */
-  font-size: 36px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 800;
  }
 
  #email-p {
-  top: 60%;
-  font-size: 14px;
+  top: 62%;
+  font-size: 17px;
+  font-weight: 500;
+  /* text-decoration: underline; */
  }
   
  .send-div {
