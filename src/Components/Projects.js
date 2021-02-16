@@ -33,7 +33,7 @@ const Projects = () => {
     }
 
     const projImgs = [
-        'https://i.imgur.com/FuhCsiK.png',
+        'https://i.imgur.com/gpFEXd5.png',
         'https://i.imgur.com/pIVBJ7c.png',
         'https://i.imgur.com/WQ6hqDA.png', 
         'https://i.imgur.com/i6How12.png',
