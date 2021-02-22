@@ -14,13 +14,17 @@ const Contact = () => {
                 <h4 id="contact-p">Get in Touch!</h4>
                 <p id="email-p">babianelektra@gmail.com</p>
             </div>
-            <div className="bubble"><p id="contact-social">Email</p></div>
+            <div className="bubble">
+                <a href="https://github.com/ebabian" target="_blank" rel="noreferrer">
+                    <img id="contact-icon" src="https://img.icons8.com/material-sharp/96/000000/github.png" alt="GitHub"/>
+                </a>
+            </div>
             <div className="bubble2"><p id="contact-social">LinkedIn</p></div>
             <div className="bubble3"><p id="contact-social">GitHub</p></div>
             <div className="send-div">
                 {/* <a id="send-btn" href="mailto: babianelektra@gmail.com">SEND</a> */}
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
