@@ -1,30 +1,13 @@
 import React from 'react';
 import Nav from './Nav';
-import Footer from './Footer'
+// import Footer from './Footer'
 import './Contact.css'
 
 const Contact = () => {
     return (
         <div className="Contact">
             <Nav />
-            <div className="imgDiv">
-                <img id="contactImg" src="https://i.imgur.com/WRsSm98.jpg" alt="Elektra Babian"/>
-            </div>
-            <div className="contact-bubble">
-                <h4 id="contact-p">Get in Touch!</h4>
-                <p id="email-p">babianelektra@gmail.com</p>
-            </div>
-            <div className="bubble">
-                <a href="https://github.com/ebabian" target="_blank" rel="noreferrer">
-                    <img id="contact-icon" src="https://img.icons8.com/material-sharp/96/000000/github.png" alt="GitHub"/>
-                </a>
-            </div>
-            <div className="bubble2"><p id="contact-social">LinkedIn</p></div>
-            <div className="bubble3"><p id="contact-social">GitHub</p></div>
-            <div className="send-div">
-                {/* <a id="send-btn" href="mailto: babianelektra@gmail.com">SEND</a> */}
-            </div>
-            {/* <Footer /> */}
+            
         </div>
     );
 };

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Nav from './Nav'
 import './About.css'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 const About = () => {
     return (

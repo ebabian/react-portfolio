@@ -47,8 +47,8 @@ const Projects = () => {
     return (
         <div>
             
-        <Link className="home-eb fade-in proj-eb" to={'/home'}>Elektra Babian</Link>
-        <div className="Portfolio">
+            <Link className="home-eb fade-in" to={'/home'}>Elektra</Link>
+            <Link className="home-b fade-in" to={'/home'}>Babian</Link>        <div className="Portfolio">
             <Nav />
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
@@ -82,11 +82,13 @@ const Projects = () => {
                             onClick={toggleDescription}
                             className="desc"
                             id="proj-arrow" 
+                            alt="arrow down"
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
                         className="desc"
+                        alt="arrow up"
                         id="proj-up-arrow"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
@@ -96,6 +98,7 @@ const Projects = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://github.com/ebabian/Your-Story"
+                        rel="noreferrer"
                         target="_blank">GitHub Repo</a>
                     </p>
                     : ("")}
@@ -121,12 +124,14 @@ const Projects = () => {
                             onClick={toggleDescription}
                             className="desc2"
                             id="proj-arrow" 
+                            alt="arrow down"
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
                         className="desc2"
                         id="proj-up-arrow"
+                        alt="arrow up"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
@@ -135,6 +140,7 @@ const Projects = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://github.com/ebabian/React-Calculator"
+                        rel="noreferrer"
                         target="_blank">GitHub Repo</a>
                     </p>
                     : ("")}
@@ -158,12 +164,14 @@ const Projects = () => {
                             onClick={toggleDescription}
                             className="desc3"
                             id="proj-arrow" 
+                            alt="arrow down"
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
                         className="desc3"
                         id="proj-up-arrow"
+                        alt="arrow up"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
@@ -172,6 +180,7 @@ const Projects = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://github.com/ebabian/ebabian.github.io"
+                        rel="noreferrer"
                         target="_blank">GitHub Repo</a>
                     </p>
                     : ("")}
@@ -195,12 +204,14 @@ const Projects = () => {
                             onClick={toggleDescription}
                             className="desc4"
                             id="proj-arrow" 
+                            alt="arrow down"
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
                         className="desc4"
                         id="proj-up-arrow"
+                        alt="arrow up"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
@@ -209,6 +220,7 @@ const Projects = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://github.com/ebabian/Tic-Tac-Toe"
+                        rel="noreferrer"
                         target="_blank">GitHub Repo</a>
                     </p>
                     : ("")}
@@ -232,12 +244,14 @@ const Projects = () => {
                             onClick={toggleDescription}
                             className="desc5"
                             id="proj-arrow" 
+                            alt="arrow down"
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
                         className="desc5"
                         id="proj-up-arrow"
+                        alt="arrow up"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
@@ -247,6 +261,7 @@ const Projects = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://github.com/ebabian/Techi"
+                        rel="noreferrer"
                         target="_blank">GitHub Repo</a>
                     </p>
                     : ("")}
@@ -269,13 +284,15 @@ const Projects = () => {
                        ( <img 
                             onClick={toggleDescription}
                             className="desc6"
-                            id="proj-arrow" 
+                            id="proj-arrow"
+                            alt="arrow down" 
                             src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                             :
                         (<img 
                         onClick={toggleDescription}
                         className="desc6"
                         id="proj-up-arrow"
+                        alt="arrow up"
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
@@ -285,6 +302,7 @@ const Projects = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://github.com/ebabian/Stocked"
+                        rel="noreferrer"
                         target="_blank">GitHub Repo</a>
                     </p>
                     : ("")}
