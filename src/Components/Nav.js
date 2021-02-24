@@ -3,8 +3,8 @@ import './Nav.css';
 import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
-
 const Nav = () => {
+
     return (
         <>
         <nav className="fade-in nav">

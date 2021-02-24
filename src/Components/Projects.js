@@ -46,26 +46,26 @@ const Projects = () => {
 
     return (
         <div>
-            
-    
-            <div className="Portfolio">
-            <Link className="home-eb fade-in" to={'/home'}>
+             <Link className="home-eb fade-in" to={'/home'}>
                 <img
                 id="eb-img" 
                 alt="Elektra Babian"
                 src="https://i.imgur.com/GUWStwx.png"></img>
             </Link>
             <Nav />
+            
+
+            <div className="Portfolio">
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
 
 
             {/* Sunny App */}
-            <div className="img-wrapper">
+            <div className="img-wrapper fade-in">
                 <a href="https://github.com/ebabian/weather-app"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[0]} alt="Sunny"/>
+                    <img id="proj-img1" src={projImgs[0]} alt="Sunny"/>
                 </a>
                 <h4 id="proj-title">Sunny</h4>
                 <h5 id="proj-description">Coming soon <br/> Openweathermap API, React, Search bar</h5>
@@ -73,7 +73,7 @@ const Projects = () => {
 
 
             {/* Your Story */}
-            <div className="img-wrapper">
+            <div className="img-wrapper fade-in">
                 <a href="https://your-story-app.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer">
@@ -141,7 +141,7 @@ const Projects = () => {
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
-                    { desc2 ? <p id="proj-details" className="fade-in">This online React calculator always users to solve simple and advanced mathematical problems. <br/>
+                    { desc2 ? <p id="proj-details" className="fade-in">This online React calculator allows users to solve simple and advanced mathematical problems. <br/>
                     <br/>
                     <a 
                         id="proj-github-repo" 

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer';
 import './Home.css';
-// import About from './About'
+import About from './About'
+
 
 const Home = () => {
+    
     return (
-        <div >
-        {/* <Link className="home-eb fade-in" to={'/home'}>Elektra</Link>
-        <Link className="home-b fade-in" to={'/home'}>Babian</Link> */}
+        <div>
         <Link className="home-eb fade-in" to={'/home'}>
             <img
             id="eb-img" 

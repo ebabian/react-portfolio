@@ -1,11 +1,11 @@
 .About {
-    /* width: 100%; 
-    height: 100%;  */
-    position:absolute;
-  top:0px;
-  right:0px;
-  bottom:0px;
-  left:0px;
+    margin: 0;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 72%;
     background: rgb(255, 235, 125);
 }
 
@@ -15,17 +15,15 @@
 }
 
 #about-h1 {
-    font-size: 4em;
-    font-weight: 800;
-    color: black;
-    font-family: gill sans;
-    /* border: 1px solid blue; */
+    font-size: 4.5em;
+    font-family: zoika;
 }
 
 #hand-icon {
     width: 60px;
     transform: scaleX(-1);
     vertical-align: middle;
+    margin-left: 15px;
 }
 #ga-icon {
     width: 45px;
