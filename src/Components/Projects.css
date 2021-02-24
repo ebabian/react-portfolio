@@ -1,20 +1,19 @@
+
 .Portfolio {
-    margin-top: 15%;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    /* transform: translate(-50%, -50%); */
+    /* width: 100%; */
 }
 
 .page-title {
     margin-left: 14%;
     margin-top: 120px;
-    /* margin-bottom:70px; */
     text-align: left;
     font-weight: 400;
     font-size: 38px;
 }
-
-.home-eb {
-    z-index: -1;
-}
-
 
 .proj-wrapper {
     display: grid;
@@ -29,7 +28,6 @@
 }
 
 .img-wrapper {
-    /* border: 1px solid cyan; */
     padding-bottom: 100px;
     transition: .8s ease;
 
@@ -56,7 +54,6 @@
 #proj-title {
     margin-left: 80px;
     font-size: 21px;
-    /* border: 1px solid rgb(182, 255, 182); */
     font-weight: 800;
     text-align: left;
     margin-top: 20px;
@@ -66,7 +63,6 @@
 
 #proj-description {
     text-align: left;
-    /* border: 1px solid rgb(255, 179, 179); */
     margin-left: 80px;
     color: gray;
     font-weight: 400;
@@ -86,7 +82,6 @@
 #proj-git {
     width: 22px;
     vertical-align:top;
-    /* margin-left: 4px; */
     margin-top: 8px;
     opacity: .5;
 }
@@ -121,6 +116,7 @@ transition: .8s ease;
 
 
 @media (max-width: 800px) {
+    
     .proj-wrapper {
         grid-template-columns: 1fr;
         grid-row-gap: 0;
@@ -137,4 +133,4 @@ transition: .8s ease;
         font-weight: 400;
         font-size: 38px;
     }
-}
+} 
