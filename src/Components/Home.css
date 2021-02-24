@@ -47,11 +47,18 @@ pre {
     position: absolute;
     top: 90%;
     left: 50%;
-    width: 80%;
+    right: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     color: white;
     font-weight: 100;
     /* letter-spacing: -.5px; */
+}
+
+@media (max-width: 660px) {
+    pre {
+        font-size: 14px;
+    }
 }
 
 
@@ -91,27 +98,17 @@ pre {
     transform: translate(-50%, -50%);
 }
 
-.home-eb, .home-b {
+.home-eb {
     position: absolute;
     top: -10px;
     left: 2%;
     margin: 0;
-    /* text-transform: uppercase; */
-    letter-spacing: .6px;
-    text-decoration: none;
-    color: black;
-    font-weight: 100;
-    font-family:arial;
-    font-size: 2.3em;
-    /* color: rgb(255,159,66); */
-    font-family: 'gilbert';
 }
 
-.home-b {
+/* .home-b {
     top: 64px;
     letter-spacing: 3.8px;
-    /* color: rgb(224, 250, 80); */
-}
+} */
 
 
 #eb-img {

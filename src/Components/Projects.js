@@ -47,8 +47,14 @@ const Projects = () => {
     return (
         <div>
             
-            <Link className="home-eb fade-in" to={'/home'}>Elektra</Link>
-            <Link className="home-b fade-in" to={'/home'}>Babian</Link>        <div className="Portfolio">
+    
+            <div className="Portfolio">
+            <Link className="home-eb fade-in" to={'/home'}>
+                <img
+                id="eb-img" 
+                alt="Elektra Babian"
+                src="https://i.imgur.com/GUWStwx.png"></img>
+            </Link>
             <Nav />
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
