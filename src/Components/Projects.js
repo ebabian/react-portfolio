@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Connect from './Connect';
 import './Projects.css';
+import Art from './ArtPortfolio'
 
 const Projects = ({ toggleMenu }) => {
     const [desc, showDesc] = useState(false);
@@ -308,8 +309,9 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
-                
+            <Art />
             </div>
+            
             <Connect />
             </div>
             

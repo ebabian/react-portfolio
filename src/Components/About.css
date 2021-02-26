@@ -1,14 +1,20 @@
 .About {
     margin: 0;
-    width: 96%;
     position: absolute;
-    top: 4%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 94%;
+    height: 92%;
+    background-color: rgb(233, 233, 233);
+
     /* background-color: rgb(255, 235, 125); */
 }
 
 .about-container {
     text-align: left;
     margin: 150px 18%;
+   
 }
 
 #about-h1 {
