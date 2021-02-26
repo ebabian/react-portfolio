@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
-// import Connect from './Connect';
+import Connect from './Connect';
 import './Projects.css';
 
 const Projects = ({ toggleMenu }) => {
@@ -50,7 +50,7 @@ const Projects = ({ toggleMenu }) => {
 
             <div className="Portfolio">
             <Nav toggleMenu/>
-            <h1 className="page-title fade-in">Portfolio</h1>
+            <h1 className="page-title fade-in">Work</h1>
             <div className="proj-wrapper fade-in">
 
 
@@ -310,8 +310,9 @@ const Projects = ({ toggleMenu }) => {
             </div>
                 
             </div>
+            <Connect />
             </div>
-            {/* <Connect /> */}
+            
         </div>
     );
 };

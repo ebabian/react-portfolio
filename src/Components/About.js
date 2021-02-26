@@ -8,8 +8,8 @@ const About = () => {
     return (
         <div>
             <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
-            <Nav />
             <div className="About">
+            <Nav />
                 <div className="about-container">
                     <h1 id="about-h1">Hi, I'm Elektra.<img id="hand-icon" alt="Hand Wave" src="https://img.icons8.com/ios-filled/100/000000/so-so.png"/></h1>
                     <h4 id="about-desc-h4">

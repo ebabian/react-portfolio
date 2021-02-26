@@ -1,12 +1,12 @@
 .About {
     margin: 0;
     position: absolute;
-    top: 51%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 72%;
-    /* background: rgb(255, 235, 125); */
+    width: 94%;
+    height: 92%;
+    background-color: rgb(255, 235, 125);
 }
 
 .about-container {
@@ -16,7 +16,6 @@
 
 #about-h1 {
     font-size: 4.5em;
-    font-family: zoika;
 }
 
 #hand-icon {

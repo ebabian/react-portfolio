@@ -3,7 +3,7 @@
 
 
 #burg-menu {
-  width: 45px;
+  width: 42px;
   float: right;
   cursor: pointer;
   margin-top: 5px;
@@ -20,6 +20,7 @@
   right: 0px;
   top: 0px;
   box-shadow: 1px 1px 10px gray;
+  z-index: 1;
 }
 
 #burg-x {
@@ -52,31 +53,6 @@
   margin-left: 20px;
   font-size: 23px;
   text-decoration: none;
-}
-
-
-
-
-nav {
-    margin-top: 40px;
-    
-}
-
-.navLink {
-  margin: 4%;
-    padding: 35px 20px;
-    cursor: pointer;
-    border-radius: 50%;
-    text-decoration: none;
-    color: black;
-    font-weight: 300;
-    font-size: 15px;
-}
-
-.navLink:hover {
-    color: gray;
-    text-decoration: underline;
-    text-underline-position: under;
 }
 
 
