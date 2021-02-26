@@ -10,14 +10,9 @@ const Home = () => {
     
     return (
         <div>
-        <Link className="home-eb fade-in" to={'/home'}>
-            <img
-            id="eb-img" 
-            alt="Elektra Babian"
-            src="https://i.imgur.com/GUWStwx.png"></img>
-        </Link>
-        <Nav />
+        <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
             <div className="Home">
+            <Nav />
             <div className="home-wrapper">
                 <pre className="home-pre fade-in">
                     Digital Creator   |   Software Engineer   |   Problem Solver</pre>

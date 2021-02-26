@@ -7,12 +7,7 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <Link className="home-eb fade-in" to={'/home'}>
-                <img
-                id="eb-img" 
-                alt="Elektra Babian"
-                src="https://i.imgur.com/GUWStwx.png"></img>
-            </Link>
+            <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
             <Nav />
             <div className="About">
                 <div className="about-container">

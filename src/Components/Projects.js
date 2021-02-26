@@ -1,20 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
-import Connect from './Connect';
+// import Connect from './Connect';
 import './Projects.css';
 
-const Projects = () => {
+const Projects = ({ toggleMenu }) => {
     const [desc, showDesc] = useState(false);
     const [desc2, showDesc2] = useState(false);
     const [desc3, showDesc3] = useState(false);
     const [desc4, showDesc4] = useState(false);
     const [desc5, showDesc5] = useState(false);
     const [desc6, showDesc6] = useState(false);
-
-
-
-
 
     function toggleDescription(event) {
         if(event.target.className === 'desc') {
@@ -47,16 +43,13 @@ const Projects = () => {
     return (
         <div>
             
-             <Link className="home-eb fade-in" to={'/home'}>
-                <img
-                id="eb-img" 
-                alt="Elektra Babian"
-                src="https://i.imgur.com/GUWStwx.png"></img>
-            </Link>
-            <Nav />
+            <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
+
+            
             
 
             <div className="Portfolio">
+            <Nav toggleMenu/>
             <h1 className="page-title fade-in">Portfolio</h1>
             <div className="proj-wrapper fade-in">
 
