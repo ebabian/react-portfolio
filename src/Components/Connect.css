@@ -1,15 +1,12 @@
 .connect-container {
     padding-top: 100px;
     background-color: rgb(255, 235, 125);
-    width: 110%;
+    width: 105%;
     height: 400px;
     font-size: 33px;
     letter-spacing: -3px;
     color:  rgb(18, 16, 23);
 }
-
-
-
 
 #email {
     color: rgb(18, 16, 23);
@@ -46,4 +43,17 @@
 #linkedin-icon {
     width: 21px;
     margin-left: 15px;
+}
+
+#up-arrow {
+    width: 40px;
+    float: right;
+    margin-right: 5%;
+    scroll-behavior: smooth;
+}
+
+#up-arrow:hover {
+    transition: 1s ease;
+    transform: scale(1.05);
+    cursor: pointer;
 }

@@ -1,7 +1,7 @@
 
 .Portfolio {
     margin: 0;
-    width: 96%;
+    width: 97%;
     position: absolute;
     top: 4%;
     /* transform: translate(-50%, -50%); */
@@ -74,6 +74,7 @@
     cursor: pointer;
     transition: .8s ease;
     width: 70%;
+
 }
 
 .img-wrapper:hover #proj-description {

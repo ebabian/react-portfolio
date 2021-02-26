@@ -1,12 +1,9 @@
 .About {
     margin: 0;
+    width: 96%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 94%;
-    height: 92%;
-    background-color: rgb(255, 235, 125);
+    top: 4%;
+    /* background-color: rgb(255, 235, 125); */
 }
 
 .about-container {

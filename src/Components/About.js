@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Nav from './Nav'
-import './About.css'
+import Nav from './Nav';
+import './About.css';
+import Connect from './Connect'
 // import Footer from './Footer'
 
 const About = () => {
@@ -18,6 +19,7 @@ const About = () => {
                     
                     <img id="about-img" src="https://i.imgur.com/WRsSm98.jpg" alt="Elektra Babian"/>
                     </div>
+                    <Connect />
                 </div>
             </div>
     );

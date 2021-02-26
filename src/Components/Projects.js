@@ -43,14 +43,14 @@ const Projects = ({ toggleMenu }) => {
     return (
         <div>
             
-            <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
+            <Link id="top-proj" className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
 
             
             
 
             <div className="Portfolio">
             <Nav toggleMenu/>
-            <h1 className="page-title fade-in">Work</h1>
+            <h1  className="page-title fade-in">Work</h1>
             <div className="proj-wrapper fade-in">
 
 
