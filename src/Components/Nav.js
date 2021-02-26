@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
 
-    const [toggleMenu, setTogMenu] = useState(false)
+    const [toggleMenu, setTogMenu] = useState(true)
 
     const toggleNav = () => {
         setTogMenu(!toggleMenu)
@@ -29,9 +29,15 @@ const Nav = () => {
             id="burg-x" 
             alt="close" 
             src="https://img.icons8.com/material/48/ffffff/multiply--v1.png"/>
-                <Link to={'/home'} className="navLink2">Home</Link>
-                <Link to={'/projects'} className="navLink2">Work</Link>
-                <Link to={'/about'} className="navLink2">About</Link>
+                <Link 
+                onClick={toggleNav}
+                to={'/home'} className="navLink2">Home</Link>
+                <Link 
+                onClick={toggleNav}
+                to={'/projects'} className="navLink2">Work</Link>
+                <Link 
+                onClick={toggleNav}
+                to={'/about'} className="navLink2">About</Link>
                 {/* <Link to={'/contact'} className="navLink2">Contact</Link> */}
                 <h4 className="navLink-contact">Get in touch</h4>
                 <a 
