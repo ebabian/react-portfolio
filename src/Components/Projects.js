@@ -318,7 +318,7 @@ const Projects = () => {
                 
             </div>
             </div>
-            <Connect />
+            {/* <Connect /> */}
         </div>
     );
 };
