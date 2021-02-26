@@ -7,8 +7,8 @@ import Connect from './Connect'
 
 const About = () => {
     return (
-        <div>
-            <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
+        <div id="eb">
+            <Link  className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
             <div className="About">
             <Nav />
                 <div className="about-container">

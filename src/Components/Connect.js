@@ -5,7 +5,7 @@ import './Connect.css'
 function Connect() {
     return (
         <div className="connect-container">
-            <a href="#top-proj">
+            <a href="#eb">
                 <img id="up-arrow" alt="go up"src="https://img.icons8.com/pastel-glyph/64/000000/circled-up.png"/>
             </a>
 

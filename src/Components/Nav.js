@@ -38,29 +38,12 @@ const Nav = () => {
                 <Link 
                 onClick={toggleNav}
                 to={'/about'} className="navLink2">About</Link>
-                {/* <Link to={'/contact'} className="navLink2">Contact</Link> */}
                 <h4 className="navLink-contact">Get in touch</h4>
                 <a 
                 id="nav-mailto"
                 href="mailto:babianelektr@gmail.com">babianelektra@gmail.com</a>
             </div>)
         }
-
-
-        {/* <nav className="fade-in nav">
-            <Link to={'/home'} className="navLink">Home</Link>
-            <Link to={'/about'} className="navLink">About</Link>
-            <Link to={'/projects'} className="navLink">Portfolio</Link>
-            <Link to={'/contact'} className="navLink">Contact</Link>
-        </nav> */}
-        {/* <div className="burger-menu fade-in">
-            <Menu outerContainerId={"App"}>
-                <Link to={'/home'} className="navLink"> Home </Link>
-                <Link to={'/about'} className="navLink"> About </Link>
-                <Link to={'/projects'} className="navLink">Portfolio</Link>
-                <Link to={'/contact'} className="navLink">Contact</Link>
-            </Menu>
-        </div> */}
         </>
     );
 };

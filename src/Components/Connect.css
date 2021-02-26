@@ -50,6 +50,7 @@
     float: right;
     margin-right: 5%;
     scroll-behavior: smooth;
+    margin-top: -60px;
 }
 
 #up-arrow:hover {

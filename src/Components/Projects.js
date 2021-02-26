@@ -41,9 +41,9 @@ const Projects = ({ toggleMenu }) => {
 
 
     return (
-        <div>
+        <div id="eb">
             
-            <Link id="top-proj" className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
+            <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
 
             
             
