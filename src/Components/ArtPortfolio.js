@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import './Projects.css';
+
 
 const ArtPortfolio = () => {
 
@@ -62,7 +64,7 @@ const ArtPortfolio = () => {
                     rel="noreferrer">
                     <img id="proj-img" src="https://i.imgur.com/UvP6EFk.png" alt="Martin Schoeller Exhbition"/>
                 </a>
-                <h4 id="proj-title">Works, NRW Forum, Dusseldorf 2020</h4>
+                <h4 id="proj-title">Works, NRW Forum, Dusseldorf</h4>
                 <h5 id="proj-description" className="desc" 
                 onClick={toggleDescription}>Assist Curate Exhibition
                     
@@ -93,6 +95,9 @@ const ArtPortfolio = () => {
                     : ("")}
                 </h5>
             </div>
+
+
+            
             
         </div>
     );

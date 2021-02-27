@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Connect from './Connect';
 import './Projects.css';
-import Art from './ArtPortfolio'
+import Art from './ArtPortfolio';
 
 const Projects = ({ toggleMenu }) => {
     const [desc, showDesc] = useState(false);
@@ -39,6 +39,14 @@ const Projects = ({ toggleMenu }) => {
             <Nav toggleMenu/>
             <h1  className="page-title fade-in">Work</h1>
             <div className="proj-wrapper fade-in">
+
+            {/* Home App */}
+            <div className="img-wrapper fade-in">
+                    <img id="proj-img1" src='https://i.imgur.com/kEe0YoI.jpg' alt="Come Closer"/>
+                
+                <h4 id="proj-title">Come Closer</h4>
+                <h5 id="proj-description">Coming soon <br/>React, Audio</h5>
+            </div>
 
 
             {/* Sunny App */}
@@ -295,6 +303,7 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
+            
             <Art />
             </div>
             
