@@ -57,8 +57,17 @@ pre {
 
 @media (max-width: 660px) {
     pre {
-        font-size: 14px;
+        visibility: hidden;    
     }
+    pre:after {
+        content: 'Digital Creator | Software Engineer';
+        visibility: visible;
+        display: block;
+        font-size: 18px;
+        position: absolute;
+        left: 10%;
+        bottom: 20px;
+     }
 }
 
 
@@ -143,7 +152,9 @@ pre {
     }
 
 /* iphone 6/7/8 plus */
-@media (max-width: 414px) {
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) {
     .Home {
         width: 94%;
         height: 90%;
