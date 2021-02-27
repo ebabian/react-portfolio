@@ -143,7 +143,7 @@ pre {
     }
 
 /* iphone 6/7/8 plus */
-/* @media (min-width: 414px) {
+@media (max-width: 414px) {
     .Home {
         width: 94%;
         height: 90%;
@@ -164,7 +164,7 @@ pre {
         left: 8%;
         bottom: 20px;
      }
-} */
+}
 
 /* iphone 6/7/8 */
 /* @media(min-width: 375px) {

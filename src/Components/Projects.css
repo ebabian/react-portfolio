@@ -133,4 +133,28 @@ transition: .8s ease;
         font-weight: 400;
         font-size: 38px;
     }
-} 
+}
+
+/* iphone 6/7/8 plus */
+@media (max-width: 414px) {
+    .proj-wrapper {
+        width: 95%;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+
+    .page-title {
+        margin-top: 110px;
+    }
+
+    #proj-title {
+        margin-left: 60px;
+        width: 70%;
+    }
+
+    #proj-description {
+        margin-left: 60px;
+        font-size: 18px;
+        width: 70%;
+    }
+}
