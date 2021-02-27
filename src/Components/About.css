@@ -6,9 +6,7 @@
     transform: translate(-50%, -50%);
     width: 94%;
     height: 100%;
-    /* background-color: rgb(233, 233, 233); */
     background-color: rgb(244, 249, 250);
-    /* background-color: rgb(255, 235, 125); */
 }
 
 .about-container {
@@ -75,4 +73,16 @@
         width: 80%;
         line-height: 24px;
     }
+ }
+
+ @media (min-width: 414px) {
+    .About {
+        top: 57%;
+        height: 105%;
+    }
+    .about-container {
+        height: 600px; 
+       
+    }
+
  }

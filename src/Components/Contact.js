@@ -1,8 +1,6 @@
 import React from 'react';
 import './Contact.css'
 import myResume from '../Resume/Elektra_Babian_Resume.pdf';
-// import { Link } from 'react-router-dom';
-// import Footer from './Footer';
 
 function Contact() {
     return (
