@@ -26,3 +26,14 @@
     width: 90%;
     margin-top: 2px;
 }
+
+@media (max-width: 800px) {
+    .Timeline {
+        height: 870px;
+    }
+
+    .timeline-ul {
+        padding-top: 90px;
+        padding-left: 60px;
+    }
+}
