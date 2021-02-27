@@ -6,7 +6,10 @@ function Connect() {
     return (
         <div className="connect-container">
             <a href="#eb">
-                <img id="up-arrow" alt="go up"src="https://img.icons8.com/pastel-glyph/64/000000/circled-up.png"/>
+                <img 
+                id="up-arrow" 
+                alt="go up"
+                src="https://img.icons8.com/pastel-glyph/64/000000/circled-chevron-up.png"/>
             </a>
 
             <h1 id="connect-h1">Let's connect.</h1>

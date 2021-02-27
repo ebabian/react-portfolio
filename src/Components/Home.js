@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer';
 import './Home.css';
-import About from './About'
+// import About from './About'
 
 
 const Home = () => {
