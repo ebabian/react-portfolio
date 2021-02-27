@@ -26,7 +26,7 @@ const About = () => {
                     alt="Elektra Babian"/>
 
                     <h4 id="about-desc-h4">
-                        I'm a Brooklyn, New York native, avid soccer player, and a big cooking fan. As a non-traditional computer science student at Gerenal Assembly I took the softare engineering immersive in order to make a career shift and demystify software engineering for myself. I absolutely love software engineering because I can combine my passions of visual design (I have a BA in Photography), critical thinking (I always feel like I’m solving a puzzle), and collaboration (I love getting to know all the diverse people that have taught themselves to code and the supportive online community). Due to my success as a SE fellow with a 4.0 GPA, I was hired as a Software Engineer Instructional Associate by General Assembly. 
+                        I'm a Brooklyn, New York native, avid soccer player, and a big cooking fan. As a non-traditional computer science student at Gerenal Assembly I took the Software Engineering Immersive in order to make a career shift and demystify software engineering for myself. I absolutely love software engineering because I can combine my passions of visual design (I have a BA in Photography), critical thinking (I always feel like I’m solving a puzzle), and collaboration (I love getting to know all the diverse people that have taught themselves to code and the supportive online community). As a Software Engineering Fellow with a 4.0 GPA, I was hired as a Software Engineer Instructional Associate by General Assembly. 
                     </h4>
                     
                     </div>
