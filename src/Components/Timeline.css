@@ -38,7 +38,7 @@
 }
 
 /* iphone 6/7/8 plus */
-@media (min-width: 414px) {
+@media (max-width: 414px) {
     
     .timeline-ul {
         padding-top: 80px;
@@ -52,7 +52,7 @@
 }
 
 /* iphone 6/7/8 */
-@media (min-width: 375px) {
+/* @media (min-width: 375px) {
     .Timeline {
         height: 880px;
     }
@@ -66,4 +66,4 @@
         width: 98%;
         margin-top: 2px;
     }
-}
+} */

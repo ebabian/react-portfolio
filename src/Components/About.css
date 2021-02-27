@@ -13,22 +13,12 @@
     text-align: left;
     margin: 80px 10%;
     width: 100%;
-    height: 580px; 
+    height: 565px; 
    
 }
 
 #about-h1 {
     font-size: 4.5em;
-}
-
-#hand-icon {
-    width: 60px;
-    transform: scaleX(-1);
-    vertical-align: middle;
-    margin-left: 15px;
-}
-#ga-icon {
-    width: 45px;
 }
 
 .curve {
@@ -61,7 +51,7 @@
     font-size: 1.3em;
 }
 
-
+/* desktop */
 @media (max-width: 800px) {
     #about-h1 {
         font-size: 3.3em;
@@ -75,19 +65,47 @@
     }
  }
 
- @media (min-width: 414px) {
+ /* iphone 6/7/8 plus */
+ @media (max-width: 414px) {
     .About {
         top: 57%;
         height: 105%;
     }
     .about-container {
-        height: 600px; 
-       
+        height: 600px;
+        margin: 80px 5%; 
+        width: 94%;
+    }
+
+    #about-h1 {
+        width: 320px;
+        margin: 0;
+        font-size: 2.8em;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    #about-desc-h4 {
+        font-size: 19px;
+        font-weight: 300;
+        width: 97%;
+        line-height: 24px;
+    }
+
+    .curve {
+        width: 30%;
+        border-radius: 50%;
+        height: auto;
+        float: left;
+        margin-top: 1rem;
+        margin-right:2.5rem; 
+        shape-outside:circle();
     }
 
  }
 
- @media (min-width: 375px) {
+ /* iphone 6/7/8 */
+ /* @media (min-width: 375px) {
     #about-h1 {
         font-size: 2.8em;
     }
@@ -101,4 +119,4 @@
        
     }
 
- }
+ } */
