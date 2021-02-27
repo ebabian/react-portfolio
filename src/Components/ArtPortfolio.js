@@ -42,7 +42,7 @@ const ArtPortfolio = () => {
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
-                    { desc7 ? <p id="proj-details" className="fade-in">Martin Schoeller is one of the most famous and sought-after photographers in the world. Barack Obama, Angelina Jolie, George Clooney, and Angela Merkel have all stood before his camera. But he has also taken portraits of homeless people, drag queens, and bodybuilders. We present the most comprehensive exhibition of his work in Germany to date, featuring works from his new series Drag Queens for the first time alongside the series Close Up and Female Bodybuilders, as well as new works from a series on acquitted death row inmates.<br/>
+                    { desc7 ? <p id="proj-details" className="fade-in">I supported Martin Schoeller with one of his most influential projects: Survivors, where he partnered with Yad Vashem to photograph 75 Holocaust survivors to honor the 75 years since the liberation of Auschwitz.<br/>
                     <br/>
                     <a 
                         id="proj-github-repo" 
@@ -82,7 +82,7 @@ const ArtPortfolio = () => {
                         src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
                     }
 
-                    { desc8 ? <p id="proj-details" className="fade-in">I supported Martin Schoeller with one of his most influential projects: Survivors, where he partnered with Yad Vashem to photograph 75 Holocaust survivors to honor the 75 years since the liberation of Auschwitz.<br/>
+                    { desc8 ? <p id="proj-details" className="fade-in">Martin Schoeller is one of the most famous and sought-after photographers in the world. Barack Obama, Angelina Jolie, George Clooney, and Angela Merkel have all stood before his camera. But he has also taken portraits of homeless people, drag queens, and bodybuilders. We present the most comprehensive exhibition of his work in Germany to date, featuring works from his new series Drag Queens for the first time alongside the series Close Up and Female Bodybuilders, as well as new works from a series on acquitted death row inmates.<br/>
                     <br/>
                     <a 
                         id="proj-github-repo" 

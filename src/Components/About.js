@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import './About.css';
 import Contact from './Contact'
-// import Footer from './Footer'
+import Timeline from './Timeline'
 
 const About = () => {
     return (
@@ -19,6 +19,7 @@ const About = () => {
                     
                     <img id="about-img" src="https://i.imgur.com/WRsSm98.jpg" alt="Elektra Babian"/>
                     </div>
+                    <Timeline />
                     <Contact />
                 </div>
             </div>

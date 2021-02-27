@@ -29,27 +29,13 @@ const Projects = ({ toggleMenu }) => {
         } 
     }
 
-    const projImgs = [
-        'https://i.imgur.com/gpFEXd5.png',
-        'https://i.imgur.com/pIVBJ7c.png',
-        'https://i.imgur.com/WQ6hqDA.png', 
-        'https://i.imgur.com/i6How12.png',
-        'https://i.imgur.com/wK5XJoV.png',
-        'https://i.imgur.com/quGE92k.png',
-        'https://i.imgur.com/pPKgqu9.png'
-    ]
-
-
-
     return (
         <div id="eb">
             
             <Link className="home-eb fade-in" to={'/home'}>Elektra Babian</Link>
-
             
-            
-
             <div className="Portfolio">
+            
             <Nav toggleMenu/>
             <h1  className="page-title fade-in">Work</h1>
             <div className="proj-wrapper fade-in">
@@ -60,7 +46,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://github.com/ebabian/weather-app"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img1" src={projImgs[0]} alt="Sunny"/>
+                    <img id="proj-img1" src='https://i.imgur.com/gpFEXd5.png' alt="Sunny"/>
                 </a>
                 <h4 id="proj-title">Sunny</h4>
                 <h5 id="proj-description">Coming soon <br/> Openweathermap API, React, Search bar</h5>
@@ -72,7 +58,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://your-story-app.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[1]} alt="Your Story App"/>
+                    <img id="proj-img" src='https://i.imgur.com/pIVBJ7c.png' alt="Your Story App"/>
                 </a>
                 <h4 id="proj-title">Your Story</h4>
                 <h5 id="proj-description" className="desc" 
@@ -113,7 +99,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
                     rel="noreferrer">
-                        <img id="proj-img" src={projImgs[2]} alt="Calculator"/>
+                        <img id="proj-img" src='https://i.imgur.com/WQ6hqDA.png' alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">Calculator</h4>
                 <h5 id="proj-description"
@@ -154,7 +140,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://ebabian.github.io/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[3]} alt="Calculator"/>
+                    <img id="proj-img" src='https://i.imgur.com/i6How12.png' alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">News Now</h4>
                 <h5 id="proj-description"
@@ -194,7 +180,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://elektra-tic-tac-toe.netlify.app/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[4]} alt="Calculator"/>
+                    <img id="proj-img" src='https://i.imgur.com/wK5XJoV.png' alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">Tic-Tac-Toe</h4>
                 <h5 id="proj-description"
@@ -234,7 +220,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[5]} alt="Calculator"/>
+                    <img id="proj-img" src='https://i.imgur.com/quGE92k.png' alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">Techi</h4>
                 <h5 id="proj-description"
@@ -275,7 +261,7 @@ const Projects = ({ toggleMenu }) => {
                 <a href="https://protected-dusk-30011.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src={projImgs[6]} alt="Calculator"/>
+                    <img id="proj-img" src='https://i.imgur.com/pPKgqu9.png' alt="Calculator"/>
                 </a>
                 <h4 id="proj-title">Stocked</h4>
                 <h5 id="proj-description"

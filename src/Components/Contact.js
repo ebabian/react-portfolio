@@ -9,8 +9,8 @@ function Contact() {
                 <img id="up-arrow" alt="go up"src="https://img.icons8.com/pastel-glyph/64/000000/circled-up.png"/>
             </a>
 
-            <h1 id="connect-h1">Let's connect.</h1>
-            <a id="email" href="mailto: babianelektra@gmail.com">babianelektra@gmail.com</a> 
+            <h1 id="contact-h1">Let's connect.</h1>
+            <a id="contact-email" href="mailto: babianelektra@gmail.com">babianelektra@gmail.com</a> 
 
             <div className="social-icons">
             <a href="https://github.com/ebabian" target="_blank" rel="noreferrer">

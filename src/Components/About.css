@@ -6,8 +6,8 @@
     transform: translate(-50%, -50%);
     width: 94%;
     height: 92%;
-    background-color: rgb(233, 233, 233);
-
+    /* background-color: rgb(233, 233, 233); */
+    background-color: rgb(244, 249, 250);
     /* background-color: rgb(255, 235, 125); */
 }
 
