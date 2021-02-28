@@ -4,7 +4,7 @@ import './Timeline.css'
 const Timeline = () => {
     return (
         <div className="Timeline">
-            <ul className="timeline-ul">
+            <ul className="timeline-ul fade-in">
                 <li> 2020-'21
                     <h4 id="timeline-li-h4">Software Engineer Instructional Associate, General Assembly</h4>
                 </li>

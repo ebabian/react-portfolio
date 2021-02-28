@@ -16,7 +16,9 @@ const ArtPortfolio = () => {
         }
     }
     return (
-        <div>
+        <>
+        {/* <h2 className="design-h2">Design & Production Portfolio</h2> */}
+        <div className="proj-wrapper2">
             {/* NYT Holocaust Survivors */}
             <div className="img-wrapper fade-in">
                 <a href="https://www.nytimes.com/interactive/2020/01/24/opinion/auschwitz-anniversary-holocaust.html"
@@ -100,6 +102,7 @@ const ArtPortfolio = () => {
             
             
         </div>
+        </>
     );
 };
 

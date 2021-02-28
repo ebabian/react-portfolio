@@ -304,9 +304,9 @@ const Projects = ({ toggleMenu }) => {
                 </h5>
             </div>
             
-            <Art />
-            </div>
             
+            </div>
+            <Art />
             <Connect />
             </div>
             
