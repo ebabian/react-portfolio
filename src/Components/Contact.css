@@ -1,6 +1,5 @@
 .contact-container {
     padding-top: 150px;
-    /* background-color: rgb(255, 235, 125); */
     background-color: rgb(27, 27, 41);;
     width: 100%;
     height: 500px;
@@ -71,8 +70,9 @@
     cursor: pointer;
 }
 
-/* iphone 6/7/8 plus */
 
+
+/* iphone 6/7/8 plus */
 @media (max-width: 414px) {
     #contact-h1 {
         font-size: 55px;

@@ -47,6 +47,7 @@ function Contact() {
                 src="https://img.icons8.com/dotty/80/ffffff/open-resume.png"/>
             </a>
             
+            <div id="bottom-border"></div>
             </div>
             
     );
