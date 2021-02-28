@@ -4,10 +4,15 @@
     left: 1.7%;
 }
 
-#social {
-    width: 23px;
+#social, #social2 {
+    width: 22px;
     margin-left: 22px;
 }
+
+#social2 {
+    width: 21px;
+}
+
 
 .fade-in {
     animation: fadeIn ease 5s;
