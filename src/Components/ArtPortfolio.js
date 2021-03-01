@@ -26,7 +26,7 @@ const ArtPortfolio = () => {
                     rel="noreferrer">
                     <img id="proj-img" src="https://i.imgur.com/9xEE0wS.png" alt="NYT Survivors"/>
                 </a>
-                <h4 id="proj-title">SURVIVORS: Faces of life after the Holocaust</h4>
+                <h4 id="proj-title">SURVIVORS</h4>
                 <h5 id="proj-description" className="desc" 
                 onClick={toggleDescription}>Book Design, Adobe Suite 
                     
@@ -59,16 +59,16 @@ const ArtPortfolio = () => {
             </div>
 
 
-             {/* Exhibtion in Germany*/}
+             {/* Death Row Exonerees */}
              <div className="img-wrapper fade-in">
-                <a href="https://www.nrw-forum.de/en/exhibitions/martin-schoeller"
+                <a href="https://www.fotografiska.com/nyc/exhibition/death-row-exonerees/full/"
                     target="_blank"
                     rel="noreferrer">
-                    <img id="proj-img" src="https://i.imgur.com/UvP6EFk.png" alt="Martin Schoeller Exhbition"/>
+                    <img id="proj-img" src="https://i.imgur.com/zo00FKM.png" alt="Death Row Exonerees"/>
                 </a>
-                <h4 id="proj-title">Works, NRW Forum, Dusseldorf</h4>
+                <h4 id="proj-title">Death Row Exonerees</h4>
                 <h5 id="proj-description" className="desc" 
-                onClick={toggleDescription}>Assist Curate Exhibition
+                onClick={toggleDescription}>Production, Audio Editor
                     
                     {!desc8 ? 
                        ( <img 
@@ -90,7 +90,7 @@ const ArtPortfolio = () => {
                     <br/>
                     <a 
                         id="proj-github-repo" 
-                        href="https://martinschoeller.com/EXHIBITIONS/Works,-NRW-Forum,-Dusseldorf,-2020/1/thumbs"
+                        href="https://martinschoeller.com/EXHIBITIONS/Death-Row-Exonerees,-Fotografiska,-NYC,-2020/2"
                         rel="noreferrer"
                         target="_blank">Martin Schoeller</a>
                     </p>

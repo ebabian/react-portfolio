@@ -41,12 +41,12 @@ const Projects = ({ toggleMenu }) => {
             <div className="proj-wrapper fade-in">
 
             {/* Home App */}
-            <div className="img-wrapper fade-in">
+            {/* <div className="img-wrapper fade-in">
                     <img id="proj-img1" src='https://i.imgur.com/kEe0YoI.jpg' alt="Come Closer"/>
                 
                 <h4 id="proj-title">Come Closer</h4>
                 <h5 id="proj-description">Coming soon <br/>React, Audio</h5>
-            </div>
+            </div> */}
 
 
             {/* Sunny App */}

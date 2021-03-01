@@ -53,6 +53,8 @@
 
 #proj-img {
     width: 68%;
+    cursor: pointer;
+    /* cursor:url('./cursor.png') 2 14, pointer; */
 }
 
 #proj-img1 {
