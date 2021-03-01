@@ -11,7 +11,7 @@ function App() {
         <Route path="/home" component={Home}/>
         <Route path="/" render={() => <Redirect to="/home"/> } />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/work" component={Projects} />
         {/* <Route path="/contact" component={Contact} /> */}
       </main>
     </div>

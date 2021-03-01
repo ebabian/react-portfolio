@@ -17,8 +17,54 @@ const ArtPortfolio = () => {
     }
     return (
         <>
-        {/* <h2 className="design-h2">Design & Production Portfolio</h2> */}
+        
         <div className="proj-wrapper2">
+
+        {/* Death Row Exonerees */}
+        <div className="img-wrapper fade-in">
+                <a href="https://www.fotografiska.com/nyc/exhibition/death-row-exonerees/full/"
+                    target="_blank"
+                    rel="noreferrer">
+                    <img id="proj-img" src="https://i.imgur.com/zo00FKM.png" alt="Death Row Exonerees"/>
+                </a>
+                <h4 id="proj-title">Death Row Exonerees</h4>
+                <h5 id="proj-description" className="desc" 
+                onClick={toggleDescription}>Production, Davinci Resolve, Premiere Pro
+                    
+                    {!desc8 ? 
+                       ( <img 
+                            onClick={toggleDescription}
+                            className="desc8"
+                            id="proj-arrow" 
+                            alt="arrow down"
+                            src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                            :
+                        (<img 
+                        onClick={toggleDescription}
+                        className="desc8"
+                        alt="arrow up"
+                        id="proj-up-arrow"
+                        src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
+                    }
+
+                    { desc8 ? <p id="proj-details" className="fade-in">I assisted Martin Schoeller with his powerful project on injustice in the incarceration system. As the lead audio editor for this project I was responsible for helping capture the stories of Americans that were accused of crimes they did not commit. <br/>
+                    <br/>
+                    <a 
+                        id="proj-github-repo" 
+                        href="https://martinschoeller.com/EXHIBITIONS/Death-Row-Exonerees,-Fotografiska,-NYC,-2020/2"
+                        rel="noreferrer"
+                        target="_blank">Martin Schoeller</a>
+                    </p>
+                    : ("")}
+                </h5>
+            </div>
+
+
+
+
+
+
+
             {/* NYT Holocaust Survivors */}
             <div className="img-wrapper fade-in">
                 <a href="https://www.nytimes.com/interactive/2020/01/24/opinion/auschwitz-anniversary-holocaust.html"
@@ -51,46 +97,6 @@ const ArtPortfolio = () => {
                     <a 
                         id="proj-github-repo" 
                         href="https://martinschoeller.com/EXHIBITIONS/Survivors,-Zeche-Zollverein,-Essen,-2020/1"
-                        rel="noreferrer"
-                        target="_blank">Martin Schoeller</a>
-                    </p>
-                    : ("")}
-                </h5>
-            </div>
-
-
-             {/* Death Row Exonerees */}
-             <div className="img-wrapper fade-in">
-                <a href="https://www.fotografiska.com/nyc/exhibition/death-row-exonerees/full/"
-                    target="_blank"
-                    rel="noreferrer">
-                    <img id="proj-img" src="https://i.imgur.com/zo00FKM.png" alt="Death Row Exonerees"/>
-                </a>
-                <h4 id="proj-title">Death Row Exonerees</h4>
-                <h5 id="proj-description" className="desc" 
-                onClick={toggleDescription}>Production, Audio Editor
-                    
-                    {!desc8 ? 
-                       ( <img 
-                            onClick={toggleDescription}
-                            className="desc8"
-                            id="proj-arrow" 
-                            alt="arrow down"
-                            src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
-                            :
-                        (<img 
-                        onClick={toggleDescription}
-                        className="desc8"
-                        alt="arrow up"
-                        id="proj-up-arrow"
-                        src="https://img.icons8.com/pastel-glyph/64/000000/expand-arrow.png"/>)
-                    }
-
-                    { desc8 ? <p id="proj-details" className="fade-in">Martin Schoeller is one of the most famous and sought-after photographers in the world. Barack Obama, Angelina Jolie, George Clooney, and Angela Merkel have all stood before his camera. But he has also taken portraits of homeless people, drag queens, and bodybuilders. We present the most comprehensive exhibition of his work in Germany to date, featuring works from his new series Drag Queens for the first time alongside the series Close Up and Female Bodybuilders, as well as new works from a series on acquitted death row inmates.<br/>
-                    <br/>
-                    <a 
-                        id="proj-github-repo" 
-                        href="https://martinschoeller.com/EXHIBITIONS/Death-Row-Exonerees,-Fotografiska,-NYC,-2020/2"
                         rel="noreferrer"
                         target="_blank">Martin Schoeller</a>
                     </p>

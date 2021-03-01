@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Connect from './Connect';
 import './Projects.css';
 import Art from './ArtPortfolio';
+import Fade from 'react-reveal/Fade'
 
 const Projects = ({ toggleMenu }) => {
     const [desc, showDesc] = useState(false);
@@ -12,6 +13,7 @@ const Projects = ({ toggleMenu }) => {
     const [desc4, showDesc4] = useState(false);
     const [desc5, showDesc5] = useState(false);
     const [desc6, showDesc6] = useState(false);
+    // const [isVisible, setVisible] = useState(true);
 
     function toggleDescription(event) {
         if(event.target.className === 'desc') {
@@ -29,6 +31,8 @@ const Projects = ({ toggleMenu }) => {
         } 
     }
 
+    
+
     return (
         <div id="eb">
             
@@ -37,7 +41,14 @@ const Projects = ({ toggleMenu }) => {
             <div className="Portfolio">
             
             <Nav toggleMenu/>
-            <h1  className="page-title fade-in">Work</h1>
+
+            <Fade bottom>
+            <h1  className="page-title fade-in">
+                Work <span id="work-section-h4">| Software</span>
+            </h1>
+            </Fade>
+
+            <Fade bottom>
             <div className="proj-wrapper fade-in">
 
             {/* Home App */}
@@ -50,7 +61,8 @@ const Projects = ({ toggleMenu }) => {
 
 
             {/* Sunny App */}
-            <div className="img-wrapper fade-in">
+            <Fade bottom>
+            <div className='img-wrapper fade-in'>
                 <a href="https://github.com/ebabian/weather-app"
                     target="_blank"
                     rel="noreferrer">
@@ -59,9 +71,12 @@ const Projects = ({ toggleMenu }) => {
                 <h4 id="proj-title">Sunny</h4>
                 <h5 id="proj-description">Coming soon <br/> Openweathermap API, React, Search bar</h5>
             </div>
+            </Fade>
+
 
 
             {/* Your Story */}
+            <Fade bottom>
             <div className="img-wrapper fade-in">
                 <a href="https://your-story-app.herokuapp.com/"
                     target="_blank"
@@ -99,10 +114,11 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
-         
+            </Fade>
          
 
             {/* Calculator App */}
+            <Fade bottom>
             <div className="img-wrapper">
                 <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
@@ -141,9 +157,11 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
-    
+            </Fade>
+
 
             {/* News Now */}
+            <Fade bottom>
             <div className="img-wrapper">
                 <a href="https://ebabian.github.io/"
                     target="_blank"
@@ -181,9 +199,11 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
+            </Fade>
 
 
             {/* Tic-Tac-Toe */}
+            <Fade bottom>
             <div className="img-wrapper">
                 <a href="https://elektra-tic-tac-toe.netlify.app/"
                     target="_blank"
@@ -221,9 +241,12 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
+            </Fade>
+
 
 
             {/* Techi App */}
+            <Fade bottom>
             <div className="img-wrapper">
                 <a href="https://elektra-react-calculator.netlify.app/"
                     target="_blank"
@@ -262,9 +285,12 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
+            </Fade>
+
 
 
             {/* Stocked App */}
+            <Fade bottom>
             <div className="img-wrapper">
                 <a href="https://protected-dusk-30011.herokuapp.com/"
                     target="_blank"
@@ -303,10 +329,20 @@ const Projects = ({ toggleMenu }) => {
                     : ("")}
                 </h5>
             </div>
-            
+            </Fade>
+
+
             
             </div>
+            <Fade bottom>
+            <h1  className="page-title2 fade-in">
+                Work <span id="work-section-h4">| Production</span>
+            </h1>
+            </Fade>
+
+            
             <Art />
+            </Fade>
             <Connect />
             </div>
             

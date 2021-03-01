@@ -34,7 +34,7 @@ const Nav = () => {
                 to={'/home'} className="navLink2">Home</Link>
                 <Link 
                 onClick={toggleNav}
-                to={'/projects'} className="navLink2">Work</Link>
+                to={'/work'} className="navLink2">Work</Link>
                 <Link 
                 onClick={toggleNav}
                 to={'/about'} className="navLink2">About</Link>
