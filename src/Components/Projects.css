@@ -93,7 +93,6 @@
     text-align: left;
     margin-top: 20px;
     transition: .8s ease;
-
 }
 
 #proj-description {
@@ -108,7 +107,6 @@
     cursor: pointer;
     transition: .8s ease;
     width: 70%;
-
 }
 
 .img-wrapper:hover #proj-description {
@@ -156,8 +154,8 @@ transition: .8s ease;
     .proj-wrapper, .proj-wrapper2 {
         grid-template-columns: 1fr;
         grid-row-gap: 0;
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
 
     
     }
@@ -168,6 +166,17 @@ transition: .8s ease;
         text-align: left;
         font-weight: 400;
         font-size: 38px;
+    }
+
+    #proj-title {
+        margin-left: 17%;
+
+    }
+    
+    #proj-description {
+        text-align: left;
+        margin-left: 17%;
+    
     }
 }
 
