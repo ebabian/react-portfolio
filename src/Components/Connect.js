@@ -6,7 +6,7 @@ function Connect() {
     return (
         <div className="connect-container">
             <Fade bottom>
-            <a href="#eb">
+            <a href="/work/#eb">
                 <img 
                 id="up-arrow" 
                 alt="go up"
