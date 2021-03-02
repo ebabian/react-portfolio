@@ -203,3 +203,9 @@ transition: .8s ease;
         width: 70%;
     }
 }
+
+@media (max-width: 375px) {
+    .page-title2, .page-title {
+        font-size: 35px;
+    }
+}
