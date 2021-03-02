@@ -7,7 +7,7 @@
 }
 
 .page-title {
-    margin-left: 14%;
+    margin-left: 12%;
     margin-top: 120px;
     text-align: left;
     font-weight: 400;
@@ -87,7 +87,7 @@
 }
 
 #proj-title {
-    margin-left: 80px;
+    margin-left: 90px;
     font-size: 21px;
     font-weight: 800;
     text-align: left;
@@ -97,7 +97,7 @@
 
 #proj-description {
     text-align: left;
-    margin-left: 80px;
+    margin-left: 90px;
     color: gray;
     font-weight: 400;
     font-size: 15px;
