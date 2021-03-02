@@ -12,7 +12,6 @@ function App() {
         <Route path="/" render={() => <Redirect to="/home"/> } />
         <Route path="/about" component={About} />
         <Route path="/work" component={Projects} />
-        {/* <Route path="/contact" component={Contact} /> */}
       </main>
     </div>
   );

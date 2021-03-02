@@ -98,6 +98,7 @@
     .About {
         top: 57%;
         height: 105%;
+        background-color: white;
     }
     .about-container {
         height: 650px;
@@ -143,6 +144,8 @@
     .About {
         top: 68%;
         height: 125%;
+        background-color: white;
+
     }
     
     .about-container {
