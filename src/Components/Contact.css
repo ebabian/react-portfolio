@@ -70,6 +70,8 @@
     cursor: pointer;
 }
 
+
+/* too thick on mobile */
 #bottom-border {
     width: 101%;
     height: 24px;
@@ -100,5 +102,13 @@
 
     #contact-email {
         font-size: 30px;
+    }
+
+    #bottom-border {
+        width: 101%;
+        height: 13px;
+        background-color: white;
+        margin-top: 140px;
+        margin-left: -2px;
     }
 }

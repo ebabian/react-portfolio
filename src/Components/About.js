@@ -4,6 +4,8 @@ import Nav from './Nav';
 import './About.css';
 import Contact from './Contact'
 import Timeline from './Timeline'
+import Fade from 'react-reveal/Fade'
+
 
 const About = () => {
     return (
@@ -12,18 +14,25 @@ const About = () => {
             <div className="About">
             <Nav />
                 <div className="about-container fade-in">
-                    <h1 id="about-h1">Hi, I'm Elektra!</h1>
-
-                    <img 
-                    className="curve"
-                    id="about-img" 
-                    src="https://i.imgur.com/WRsSm98.jpg" 
-                    alt="Elektra Babian"/>
-
-                    <h4 id="about-desc-h4">
-                        I'm a Brooklyn, New York native, avid soccer player, and a big cooking fan. As a non-traditional computer science student at Gerenal Assembly I took the Software Engineering Immersive in order to make a career shift and demystify software engineering for myself. I absolutely love software engineering because I can combine my passions of visual design (I have a BA in Photography), critical thinking (I always feel like I’m solving a puzzle), and collaboration (I love getting to know all the diverse people that have taught themselves to code and the supportive online community). As a Software Engineering Fellow with a 4.0 GPA, I was hired as a Software Engineer Instructional Associate by General Assembly. 
-                    </h4>
-                    
+                    <Fade bottom>
+                        <h1 id="about-h1">Hi, I'm Elektra!</h1>
+                    </Fade>
+                    <Fade bottom>
+                        <img 
+                        className="curve"
+                        id="about-img" 
+                        src="https://i.imgur.com/WRsSm98.jpg" 
+                        alt="Elektra Babian"/>
+                    </Fade>
+                    <Fade bottom>
+                        <h4 id="about-desc-h4">
+                        I'm a Brooklyn, New York native, avid soccer player, and a big cooking fan. I absolutely love software engineering because I can combine my passions of visual design (I have a BA in Photography), critical thinking (I always enjoy solving a puzzle), and collaboration (I love getting to know all the diverse people that have taught themselves to code and the supportive online community). As a Software Engineering Fellow with a 4.0 GPA, I was hired as a Software Engineer Instructional Associate by <a 
+                        id="ga-link"
+                        rel="noreferrer" 
+                        target="_blank" 
+                        href="https://generalassemb.ly/instructors/elektra-babian/25723">General Assembly</a>. I am looking for a full-stack Software Engineering role and I am interested in working with a team that shares my goals of being passionate about our work, approaches problems with a growth mindset, and a startup fast paced culture.  
+                        </h4>
+                    </Fade>
                     </div>
                     <Timeline />
                     <Contact />

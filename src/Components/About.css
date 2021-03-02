@@ -43,6 +43,13 @@
     line-height: 28px;
 }
 
+#ga-link {
+    /* font-weight: 400; */
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
 #about-title {
     position: absolute;
     left: 40%;

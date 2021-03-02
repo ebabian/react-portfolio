@@ -48,7 +48,7 @@ const Projects = ({ toggleMenu }) => {
             </h1>
             </Fade>
 
-            <Fade bottom>
+            {/* <Fade bottom> */}
             <div className="proj-wrapper fade-in">
 
             {/* Home App */}
@@ -340,9 +340,10 @@ const Projects = ({ toggleMenu }) => {
             </h1>
             </Fade>
 
-            
+            <Fade bottom>
             <Art />
             </Fade>
+           
             <Connect />
             </div>
             
