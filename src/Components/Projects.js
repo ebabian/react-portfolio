@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import Connect from './Connect';
 import './Projects.css';
 import Art from './ArtPortfolio';
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-reveal/Fade';
 
 const Projects = ({ toggleMenu }) => {
     const [desc, showDesc] = useState(false);
@@ -13,7 +13,6 @@ const Projects = ({ toggleMenu }) => {
     const [desc4, showDesc4] = useState(false);
     const [desc5, showDesc5] = useState(false);
     const [desc6, showDesc6] = useState(false);
-    // const [isVisible, setVisible] = useState(true);
 
     function toggleDescription(event) {
         if(event.target.className === 'desc') {

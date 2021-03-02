@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import './About.css';
-import Contact from './Contact'
-import Timeline from './Timeline'
-import Fade from 'react-reveal/Fade'
+import Contact from './Contact';
+import Timeline from './Timeline';
+import Fade from 'react-reveal/Fade';
 
 
 const About = () => {
