@@ -66,8 +66,14 @@
 
 /* desktop */
 @media (max-width: 800px) {
+
+    .About {
+        top: 57%;
+        height: 105%;
+    }
+
     .about-container {
-        height: 550px; 
+        height: 620px; 
        
     }
 
@@ -94,7 +100,7 @@
         height: 105%;
     }
     .about-container {
-        height: 600px;
+        height: 650px;
         margin: 80px 5%; 
         width: 94%;
     }
@@ -138,8 +144,9 @@
         top: 68%;
         height: 125%;
     }
+    
     .about-container {
-        height: 610px; 
+        height: 650px; 
        
     }
 
