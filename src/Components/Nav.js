@@ -18,12 +18,12 @@ const Nav = () => {
             toggleMenu ? 
             (<label 
                 onClick={toggleNav}
-                className="nav-toggle">
+                className="nav-toggle fade-in">
                     <img id="burg-menu" alt="menu" src="https://img.icons8.com/material-rounded/96/000000/menu--v3.png"/>
                 </label>)
 
             :
-            (<div className="burg-list fade-in">
+            (<div className="burg-list nav-fade-in">
             <img
             onClick={toggleNav} 
             id="burg-x" 
