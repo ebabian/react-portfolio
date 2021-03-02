@@ -191,6 +191,12 @@ and (max-device-width: 667px) {
 
 /* iphone 6/7/8 */
 @media(max-width: 375px) {
+    .Home {
+        width: 94%;
+        height: 88%;
+        overflow-x: hidden;
+    }
+
     pre {
         visibility: hidden;    
     }
@@ -200,8 +206,15 @@ and (max-device-width: 667px) {
         visibility: visible;
         display: block;
         font-size: 14px;
+        margin: 0;
         position: absolute;
-        left: 8%;
-        bottom: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
      }
+
+     .slogan {
+        font-size: 62px;
+        width: 90%;
+    }
 }
