@@ -1,17 +1,22 @@
 import React from 'react';
-import './Connect.css'
-import Fade from 'react-reveal/Fade'
+import './Connect.css';
+import Fade from 'react-reveal/Fade';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Connect() {
+
+
     return (
         <div className="connect-container">
             <Fade bottom>
-            <a href="#eb">
+            <Link to="work#eb">
+            {/* <ScrollToTop smooth /> */}
                 <img 
                 id="up-arrow" 
                 alt="go up"
                 src="https://img.icons8.com/pastel-glyph/64/000000/circled-chevron-up.png"/>
-            </a>
+               
+            </Link>
             </Fade>
 
             <Fade bottom>

@@ -2,18 +2,20 @@ import React from 'react';
 import './Contact.css'
 import myResume from '../Resume/Elektra_Babian_Resume.pdf';
 import Fade from 'react-reveal/Fade';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function Contact() {
     return (
         <div className="contact-container">
             <Fade bottom>
-            <a href="#eb">
+            {/* <ScrollToTop smooth /> */}
+            <Link to="about#eb">
                 <img 
                 id="up-arrow" 
                 alt="go up" 
                 src="https://img.icons8.com/pastel-glyph/64/ffffff/circled-chevron-up.png"/>   
-            </a>
+            </Link>
             </Fade>
 
             <Fade bottom>
