@@ -248,7 +248,7 @@ const Projects = ({ toggleMenu }) => {
             {/* Techi App */}
             <Fade bottom>
             <div className="img-wrapper">
-                <a href="https://elektra-react-calculator.netlify.app/"
+                <a href="https://techi-app.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer">
                     <img id="proj-img" src='https://i.imgur.com/quGE92k.png' alt="Calculator"/>

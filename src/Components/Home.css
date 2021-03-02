@@ -40,12 +40,12 @@ black
 }
 
 pre {
-   font-size: 16px;
+   font-size: 18px;
    font-family: arial;
     text-transform: uppercase;
     margin: 0;
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 50%;
     right: 50%;
     width: 100%;
@@ -63,9 +63,11 @@ pre {
         visibility: visible;
         display: block;
         font-size: 18px;
+        margin: 0;
         position: absolute;
-        left: 10%;
-        bottom: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
      }
 }
 
