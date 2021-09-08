@@ -21,16 +21,12 @@ const About = () => {
                         <img 
                         className="curve"
                         id="about-img" 
-                        src="https://i.imgur.com/WRsSm98.jpg" 
+                        src="https://i.imgur.com/Tq2NQvp.jpg" 
                         alt="Elektra Babian"/>
                     </Fade>
                     <Fade bottom>
                         <h4 id="about-desc-h4">
-                        I'm a Brooklyn, New York native, avid soccer player, and a big cooking fan. I absolutely love software engineering because I can combine my passions of visual design (I have a BA in Photography), critical thinking (I always enjoy solving a puzzle), and collaboration (I love getting to know all the diverse people that have taught themselves to code and the supportive online community). My favorite languages and database frameworks are JavaScript, Python, MongoDB, and SQL. As a Software Engineer Fellow with a 4.0 GPA, I was hired as a Software Engineer Instructional Associate by <a 
-                        id="ga-link"
-                        rel="noreferrer" 
-                        target="_blank" 
-                        href="https://generalassemb.ly/instructors/elektra-babian/25723">General Assembly</a>. I am looking for a full-stack Software Engineering role and I'm interested in working with a team that is passionate about our work, approaches problems with a growth mindset, and a startup fast paced culture.  
+                        I'm a Brooklyn, New York native, avid soccer player, and a big cooking fan. I absolutely love software engineering because I can combine my passions of visual design (I have a BA in Photography), critical thinking (I always enjoy solving a puzzle), and collaboration (I love getting to know all the diverse people that have taught themselves to code and the supportive online community). My favorite languages and database frameworks are JavaScript, Ruby on Rails, and postgreSQL. As a Full-Stack Software Engineer at Teamshares I build software that uses machine learning and tracks financial data.
                         </h4>
                     </Fade>
                     </div>
