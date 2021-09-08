@@ -21,7 +21,7 @@ const About = () => {
                         <img 
                         className="curve"
                         id="about-img" 
-                        src="https://i.imgur.com/Tq2NQvp.jpg" 
+                        src="https://i.imgur.com/54jgOYt.jpg" 
                         alt="Elektra Babian"/>
                     </Fade>
                     <Fade bottom>
