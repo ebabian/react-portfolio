@@ -8,6 +8,12 @@ const Timeline = () => {
         <div className="Timeline">
             <ul className="timeline-ul fade-in">
                 <Fade bottom>
+                <li> 2021-Present
+                    <h4 id="timeline-li-h4">Software Engineer I, Teamshares</h4>
+                </li>
+                </Fade>
+        
+                <Fade bottom>
                 <li> 2020-'21
                     <h4 id="timeline-li-h4">Software Engineer Instructional Associate, General Assembly</h4>
                 </li>
